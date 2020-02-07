@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Alex Zweber Leslie</title>
+    <link>azleslie.com/posts/</link>
+    <description>Recent content in Posts on Alex Zweber Leslie</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>2020 Alex Zweber Leslie</copyright>
+    <lastBuildDate>Tue, 04 Feb 2020 19:45:27 -0500</lastBuildDate>
+    
+	<atom:link href="azleslie.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>New Site</title>
+      <link>azleslie.com/posts/new-site/</link>
+      <pubDate>Tue, 04 Feb 2020 19:45:27 -0500</pubDate>
+      
+      <guid>azleslie.com/posts/new-site/</guid>
+      <description>I decided to bite the bullet and make a website.
+You&amp;rsquo;ll find various professional materials collected here, complete with links and downloads. I also hope, however, to use this as a place to make available some of the datasets from my research.
+I used the open-source static site generator Hugo, GitHub Pages hosting, and the theme Manis, with some minor tweaks of my own. I wanted something that was minimalist in both aesthetics and organization so that I could keep the content local, get under the hood, and learn more HTML and CSS along the way.</description>
+    </item>
+    
+  </channel>
+</rss>
