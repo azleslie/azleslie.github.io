@@ -6,10 +6,19 @@
     <description>Recent content on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>2020 Alex Zweber Leslie</copyright>
-    <lastBuildDate>Tue, 04 Feb 2020 20:44:09 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 08 Feb 2020 19:54:02 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Digital Humanities Workshops</title>
+      <link>/projects/dh-workshops/</link>
+      <pubDate>Sat, 08 Feb 2020 19:54:02 -0500</pubDate>
+      
+      <guid>/projects/dh-workshops/</guid>
+      <description>Since the Spring 2018 semester I have served as the Digital Humanities Graduate Specialist for Rutgers Libraries. Over this time I&amp;rsquo;ve developed a number of workshops, from basic tutorials on using software popular among digital humanists (Gephi, Paladio, Tropy, etc.) to some introductory and intermediate lessons on R programming in the humanities. The links each lead to a GitHub repository page, where you can find all the materials &amp;ndash; code, sample data, and step-by-step instructions &amp;ndash; for running the workshops on your own.</description>
+    </item>
     
     <item>
       <title>Teaching</title>
@@ -37,17 +46,8 @@ In this essay I examine the Literary World, the influential literary periodical 
       <pubDate>Tue, 04 Feb 2020 20:09:33 -0500</pubDate>
       
       <guid>/data/antebellum-periodicals/</guid>
-      <description>This is a CSV file of the basic metadata for the American Antiquarian Society Historical Periodicals Collection from 1821-1865, drawn from the EBSCO coverage lists.
+      <description>This is a CSV file of the basic metadata for the American Antiquarian Society&amp;rsquo;s Historical Periodicals Collection from 1821-1865, drawn from the EBSCO coverage lists.
 I&amp;rsquo;ve made several improvements. First, I added geographic coordinates for publishing locations. Second, I eliminated some of the redundancy from the original files, though some remains. I wish that the genre field were more consistent and more consolidated, but I think the only way to do that would be to go through and redo it entry by entry.</description>
-    </item>
-    
-    <item>
-      <title>Digital Humanities Workshops</title>
-      <link>/projects/dh-workshops/</link>
-      <pubDate>Tue, 04 Feb 2020 19:54:02 -0500</pubDate>
-      
-      <guid>/projects/dh-workshops/</guid>
-      <description>Since the Spring 2018 semester I have served as the Digital Humanities Graduate Specialist for Rutgers Libraries. Over this time I&amp;rsquo;ve developed a number of workshops, from basic tutorials on using software popular among digital humanists (Gephi, Paladio, Tropy, etc.) to some introductory and intermediate lessons on R programming in the humanities. All of this material &amp;ndash; code, printouts, and sample data &amp;ndash; can be found on my GitHub page. I list them with individual links here so that they don&amp;rsquo;t get buried there under future repositories.</description>
     </item>
     
     <item>
