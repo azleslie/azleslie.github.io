@@ -407,7 +407,14 @@ body {
   font-size: 1.6em;
   line-height: 1.7;
   font-weight: 400;
-  font-family: 'Nanum Myeongjo'; #'Lato', sans-serif;
+  font-family: 'Nanum Myeongjo'; /*'Lato', sans-serif */
+  color: #444;
+}
+section.footnotes { /* added this to make footnotes smaller */
+  font-size: .8em;
+  line-height: 1.7;
+  font-weight: 400;
+  font-family: 'Nanum Myeongjo'; /*'Lato', sans-serif */
   color: #444;
 }
 
