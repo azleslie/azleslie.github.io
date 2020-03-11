@@ -47,7 +47,7 @@ In this essay I examine the Literary World, the influential literary periodical 
       
       <guid>/data/antebellum-periodicals/</guid>
       <description>This is a CSV file of the basic metadata for the American Antiquarian Society&amp;rsquo;s Historical Periodicals Collection from 1821-1865, drawn from the EBSCO coverage lists.
-I&amp;rsquo;ve made several improvements. First, I added geographic coordinates for publishing locations. Second, I eliminated some of the redundancy from the original files, though some remains. I wish that the genre field were more consistent and more consolidated, but I think the only way to do that would be to go through and redo it entry by entry.</description>
+I&amp;rsquo;ve made several improvements. First, I added geographic coordinates for publishing locations. Second, I eliminated some of the redundancy from the original files, though some remains. I wish that the genre field were more consistent and more consolidated, but I think the only way to do that would be to go through entry by entry.</description>
     </item>
     
     <item>
@@ -65,7 +65,7 @@ I&amp;rsquo;ve made several improvements. First, I added geographic coordinates 
       <pubDate>Tue, 04 Feb 2020 19:45:40 -0500</pubDate>
       
       <guid>/about/</guid>
-      <description>I am a Raritan Fellow and PhD candidate in the English Department at Rutgers University. I specialize in American cultural history from the early Republic to Modernism, with particular focus on circulation and reception, cultural geography, genre, and digital humanities methods.
+      <description>I am a Raritan Fellow and PhD candidate in the English Department at Rutgers University. I specialize in American cultural history from the Early Republic to Modernism, with particular focus on circulation and reception, cultural geography, genre, and digital humanities methods.
 My dissertation, &amp;ldquo;Reading Regions: Cultural Geography and American Literature, 1865-1925,&amp;rdquo; argues that region was not simply a framework for representing cultural difference but a structuring principle of the cultural field.</description>
     </item>
     
@@ -76,8 +76,8 @@ My dissertation, &amp;ldquo;Reading Regions: Cultural Geography and American Lit
       
       <guid>/posts/new-site/</guid>
       <description>I decided to bite the bullet and make a website. I hope you like it.
-You&amp;rsquo;ll find various professional materials collected here, complete with links and downloads. I also hope to use this site as a place to make available some of the datasets from my research and to share the occasional thought on materials or methods.
-I wanted something that was minimalist in both aesthetics and organization so that I could keep the content local, get under the hood, and get a bit more experience with HTML, CSS, and the command line along the way.</description>
+You&amp;rsquo;ll find various professional materials collected here, complete with links and downloads. I also hope to use this site as a place to make available some of the datasets from my research and to share occasional thoughts on whatever materials or methods happen to excite me at the moment.
+As for the site itself, I wanted something that was minimalist in both aesthetics and organization in order to keep content local, get under the hood, and get more experience with HTML, CSS, and the command line along the way.</description>
     </item>
     
   </channel>

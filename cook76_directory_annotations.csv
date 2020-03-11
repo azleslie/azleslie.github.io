@@ -1,0 +1,141 @@
+Name,Town,State,Latitude,Longitude,Class,Subclass,Frequency,Circulation
+Northwestern,Belvidere,IL,42.2639098,-88.8442674,Republican,,Weekly,1060
+Plaindealer,Charleston,IL,39.4961458,-88.1761521,Republican,,Weekly,1200
+Alliance,Chicago,IL,41.8781136,-87.6297982,Religious,Independent,Weekly,
+Advance,Chicago,IL,41.8781136,-87.6297982,Religious,Congregational,Weekly,12000
+American Poultry Journal,Chicago,IL,41.8781136,-87.6297982,Agricultural,,Monthly,3300
+Courier,Chicago,IL,41.8781136,-87.6297982,Democrat,,Daily,7500
+Democrat,Chicago,IL,41.8781136,-87.6297982,Democrat,,Weekly,
+Engineering News,Chicago,IL,41.8781136,-87.6297982,Industrial,,Weekly,1450
+Eulenspiegel,Chicago,IL,41.8781136,-87.6297982,Ethnic,,Weekly,
+Freie Presse,Chicago,IL,41.8781136,-87.6297982,Republican,,Daily,5200
+Interior,Chicago,IL,41.8781136,-87.6297982,Religious,Presbyterian,Weekly,8500
+Industrial Age,Chicago,IL,41.8781136,-87.6297982,Radical,Grange Paper,Weekly,5000
+Journal,Chicago,IL,41.8781136,-87.6297982,Republican,,Daily,15000
+Northwestern Christian Advocate,Chicago,IL,41.8781136,-87.6297982,Religious,Methodist,Weekly,14000
+New Covenant,Chicago,IL,41.8781136,-87.6297982,Religious,Universalist,Weekly,4500
+National Sunday School Teacher,Chicago,IL,41.8781136,-87.6297982,Religious,Evangelical,Monthly,15500
+Pomeroy's Democrat,Chicago,IL,41.8781136,-87.6297982,Democrat,,Weekly,30000
+Prairie Farmer,Chicago,IL,41.8781136,-87.6297982,Agricultural,,Weekly,20000
+Pilot,Chicago,IL,41.8781136,-87.6297982,Religious,Catholic,Weekly,9600
+Times,Chicago,IL,41.8781136,-87.6297982,Democrat,,Daily,37000
+Tribune,Chicago,IL,41.8781136,-87.6297982,Republican,,Daily,28000
+Telegraph,Chicago,IL,41.8781136,-87.6297982,Independent,,Daily,14000
+Western Catholic,Chicago,IL,41.8781136,-87.6297982,Religious,Catholic,Weekly,14000
+Western Farm Journal,Chicago,IL,41.8781136,-87.6297982,Agricultural,,Weekly,9000
+Western Journal of Education,Chicago,IL,41.8781136,-87.6297982,Educational,,Monthly,2500
+Advocate,Greenville,IL,38.8922687,-89.4131356,Republican,,Weekly,1125
+Chronicle,Hoopeston,IL,40.4672587,-87.6683573,Republican,,Weekly,1100
+Phoenix,Lockport,IL,41.5894752,-88.057837,Independent,,Weekly,1500
+Plaindealer,McHenry,IL,42.333355,-88.2667534,Independent,,Weekly,
+Journal,Macomb,IL,40.4592076,-90.6717971,Republican,,Weekly,1275
+Atlas,Monmouth,IL,40.9114271,-90.6473576,Republican,,Weekly,1475
+Herald,Morris,IL,41.357254,-88.4211785,Republican,,Weekly,1120
+Carroll County Mirror,Mt. Carroll,IL,42.0950233,-89.9781797,Republican,,Weekly,890
+Republican,Ottawa,IL,41.3455892,-88.8425769,Republican,,Weekly,1686
+Beacon and Valley Blade,Paris,IL,39.611146,-87.6961374,Republican,,Weekly,1040
+Tazewell County Republican,Pekin,IL,40.5675388,-89.640658,Republican,,Weekly,1480
+Advertiser,Peoria,IL,40.6936488,-89.5889864,Independent,,Weekly,1650
+Old Flag,Pittsfield,IL,39.6078254,-90.8051289,Republican,,Weekly,1120
+Sentinel,Pontiac,IL,40.8808666,-88.6297839,Republican,,Weekly,1666
+Bureau County Tribune,Princeton,IL,41.3680919,-89.4648145,Independent,,Weekly,
+Register,Rochelle,IL,41.9239178,-89.0687073,Republican,,Weekly,1000
+Journal,Rockford,IL,42.2711311,-89.0939952,Independent,,Weekly,1560
+Times,Rockford,IL,42.2711311,-89.0939952,Independent,,Weekly,1525
+Free Press,Sandwich,IL,41.6458634,-88.6217432,Independent,,Weekly,960
+Gazette,Sterling,IL,41.788642,-89.6962194,Republican,,Weekly,
+True Republican,Sycamore,IL,41.9889173,-88.6867538,Republican,,Weekly,975
+Republican,Taylorville,IL,39.548935,-89.294533,Republican,,Weekly,1100
+Journal,Tuscola,IL,39.7991985,-88.2831038,Republican,,Weekly,1200
+Times,Watseka,IL,40.7761465,-87.7364218,Radical,Grange Paper,Weekly,1200
+Gazette,Waukegan,IL,42.3636331,-87.8447938,Republican,,Weekly,1720
+Sentinel,Woodstock,IL,42.3147436,-88.4487021,Republican,,Weekly,2000
+Record,Yorkville,IL,41.6411409,-88.4472948,Republican,,Weekly,1512
+Odd Fellows' Banner,Bloomfield,IA,40.7516884,-92.4149074,Fraternal club,,Weekly,7000
+Hawkeye,Burlington,IA,40.8076529,-91.1128901,Republican,,Daily,
+Courier-Journal,Louisville,KY,38.2526647,-85.7584557,Democrat,,Daily,12000
+Journal,Boston,MA,42.3600825,-71.0588801,Republican,,Daily,33500
+Post,Boston,MA,42.3600825,-71.0588801,Democrat,,Daily,8600
+Banner of Light,Boston,MA,42.3600825,-71.0588801,Religious,Spiritualist,Weekly,12100
+Cultivator,Boston,MA,42.3600825,-71.0588801,Agricultural,,Weekly,15000
+Index,Boston,MA,42.3600825,-71.0588801,Radical,,Weekly,3200
+Investigator,Boston,MA,42.3600825,-71.0588801,Religious,Anti-Religious,Weekly,4655
+Massachusetts Ploughman,Boston,MA,42.3600825,-71.0588801,Agricultural,,Weekly,8600
+New England Farmer,Boston,MA,42.3600825,-71.0588801,Agricultural,,Weekly,13800
+New England Journal of Education,Boston,MA,42.3600825,-71.0588801,Educational,,Weekly,6000
+Universalist,Boston,MA,42.3600825,-71.0588801,Religious,Universalist,Weekly,5100
+Woman's Journal,Boston,MA,42.3600825,-71.0588801,Radical,Suffrage,Weekly,48067
+Zion's Herald,Boston,MA,42.3600825,-71.0588801,Religious,Methodist,Weekly,14300
+Journal of Chemistry,Boston,MA,42.3600825,-71.0588801,Medical,,Monthly,14000
+Scientific Farmer,Boston,MA,42.3600825,-71.0588801,Agricultural,,Monthly,
+Wide Awake,Boston,MA,42.3600825,-71.0588801,Arts and Literature,Literary,Monthly,
+Congregational Quarterly,Boston,MA,42.3600825,-71.0588801,Religious,Congregationalist,Quarterly,3000
+Universalist Quarterly,Boston,MA,42.3600825,-71.0588801,Religious,Universalist,Quarterly,500
+New England Odd-Fellow,Lawrence,MA,42.7070354,-71.1631137,Fraternal club,,Monthly,10000
+Tribune,Detroit,MI,42.331427,-83.0457538,Republican,,Daily,4100
+Song Journal,Detroit,MI,42.331427,-83.0457538,Arts and Literature,Music,Monthly,3610
+Globe-Democrat,St. Louis,MO,38.6270025,-90.1994042,Republican,,Daily,15000
+Republican,St. Louis,MO,38.6270025,-90.1994042,Democrat,,Daily,15000
+Christian,St. Louis,MO,38.6270025,-90.1994042,Religious,Christian,Weekly,4870
+Aquatic Monthly,New York,NY,40.7127753,-74.0059728,Sport,,Monthly,900
+Army and Navy Journal,New York,NY,40.7127753,-74.0059728,Military,,Weekly,
+Baptist Union,New York,NY,40.7127753,-74.0059728,Religious,Baptist,Weekly,6500
+Catholic Review,New York,NY,40.7127753,-74.0059728,Religious,Catholic,Weekly,18600
+Churchman,New York,NY,40.7127753,-74.0059728,Religious,Episcopal,Weekly,17300
+Clipper,New York,NY,40.7127753,-74.0059728,Sport,,Weekly,29000
+Evangelist,New York,NY,40.7127753,-74.0059728,Religious,Presbyterian,Weekly,13600
+Evening Express,New York,NY,40.7127753,-74.0059728,Democrat,,Daily,4500
+Evening Post,New York,NY,40.7127753,-74.0059728,Republican,,Daily,7000
+Examiner and Chronicle,New York,NY,40.7127753,-74.0059728,Religious,Baptist,Weekly,23000
+Fireside Companion,New York,NY,40.7127753,-74.0059728,Arts and Literature,Literary,Weekly,35000
+Hall's Journal of Health,New York,NY,40.7127753,-74.0059728,Medical,,Monthly,
+Happy Hours,New York,NY,40.7127753,-74.0059728,Arts and Literature,Literary,Quarterly,4800
+Heart and Hand,New York,NY,40.7127753,-74.0059728,Fraternal club,,biweekly,5500
+Hebrew Leader,New York,NY,40.7127753,-74.0059728,Religious,Jewish,Weekly,2200
+Herald of Health,New York,NY,40.7127753,-74.0059728,Medical,,Monthly,6000
+Home Journal of Health,New York,NY,40.7127753,-74.0059728,Medical,,Monthly,
+Irish World,New York,NY,40.7127753,-74.0059728,Ethnic,,Weekly,45000
+Jewish Gazette,New York,NY,40.7127753,-74.0059728,Religious,Jewish,Weekly,
+Journal of Commerce,New York,NY,40.7127753,-74.0059728,,,Daily,6000
+Journal of Education,New York,NY,40.7127753,-74.0059728,Educational,,Monthly,
+La Creme de la Creme,New York,NY,40.7127753,-74.0059728,Arts and Literature,Music,Monthly,
+Le Beau Monde,New York,NY,40.7127753,-74.0059728,Arts and Literature,Fashion,Monthly,
+Liberal Christian,New York,NY,40.7127753,-74.0059728,Religious,Unitarian,Weekly,6500
+Little Gem and Young Folks' Favorite,New York,NY,40.7127753,-74.0059728,Arts and Literature,Literary,Monthly,10000
+Manufacturer and Builder,New York,NY,40.7127753,-74.0059728,Industrial,,Monthly,4000
+Medical Eclectic,New York,NY,40.7127753,-74.0059728,Medical,,bimonthly,2000
+Medical Record,New York,NY,40.7127753,-74.0059728,Medical,,Weekly,5000
+Medical Journal,New York,NY,40.7127753,-74.0059728,Medical,,Monthly,1000
+Methodist Quarterly Review,New York,NY,40.7127753,-74.0059728,Religious,Methodist,Quarterly,5000
+Moore's Rural New-York,New York,NY,40.7127753,-74.0059728,Agricultural,,Weekly,
+Mother's Magazine,New York,NY,40.7127753,-74.0059728,,,Monthly,2500
+National Protestant,New York,NY,40.7127753,-74.0059728,Religious,Christian,Monthly,
+Peters' Household Melodies,New York,NY,40.7127753,-74.0059728,Arts and Literature,Music,Monthly,
+Presbyterian Quarterly and Princeton Review,New York,NY,40.7127753,-74.0059728,Religious,Presbyterian,Quarterly,3000
+Rod and Gun,New York,NY,40.7127753,-74.0059728,Sport,,Weekly,2500
+Saturday Journal,New York,NY,40.7127753,-74.0059728,Arts and Literature,Literary,Weekly,30000
+Schermerhorn's Monthly,New York,NY,40.7127753,-74.0059728,Educational,,Monthly,13600
+Science of Health,New York,NY,40.7127753,-74.0059728,Medical,,Monthly,7000
+Staats Zeitung,New York,NY,40.7127753,-74.0059728,Ethnic,,Daily,49500
+Tribune,New York,NY,40.7127753,-74.0059728,Independent,,Daily,40000
+"Turf, Field and Farm",New York,NY,40.7127753,-74.0059728,Sport,,Weekly,
+American Christian Review,Cincinnati,OH,39.1031182,-84.5120196,Religious,Christian,Weekly,10000
+Christian Standard,Cincinnati,OH,39.1031182,-84.5120196,Religious,Christian,Weekly,13767
+Eclectic Medical Journal,Cincinnati,OH,39.1031182,-84.5120196,Medical,,Monthly,3333
+Herald and Presbyter,Cincinnati,OH,39.1031182,-84.5120196,Religious,Presbyterian,Weekly,15100
+Ladies' Repository,Cincinnati,OH,39.1031182,-84.5120196,Arts and Literature,Literary,Monthly,
+Masonic Review,Cincinnati,OH,39.1031182,-84.5120196,Fraternal club,,Monthly,8500
+National A. O. U. W. Bulletin,Cincinnati,OH,39.1031182,-84.5120196,Fraternal club,,Weekly,1100
+Post,Cincinnati,OH,39.1031182,-84.5120196,,,Weekly,5000
+Brainard's Musical WOrld,Cleveland,OH,41.49932,-81.6943605,Arts and Literature,Music,Monthly,22200
+Bucks County Gazette,Bristol,PA,40.1006661,-74.8518311,Independent,,Weekly,1600
+Baptist Quarterly,Philadelphia,PA,39.9525839,-75.1652215,Religious,Baptist,Quarterly,1100
+Evening Express,Philadelphia,PA,39.9525839,-75.1652215,Religious,Protestant,Daily,
+Lutheran Observer,Philadelphia,PA,39.9525839,-75.1652215,Religious,Lutherian,Weekly,10000
+National Baptist,Philadelphia,PA,39.9525839,-75.1652215,Religious,Baptist,Weekly,10000
+Penn Monthly,Philadelphia,PA,39.9525839,-75.1652215,,,Monthly,1700
+Presbyterian at Work,Philadelphia,PA,39.9525839,-75.1652215,Religious,Presbyterian,Monthly,35000
+Public Ledger,Philadelphia,PA,39.9525839,-75.1652215,,,Daily,92000
+Saturday Evening Post,Philadelphia,PA,39.9525839,-75.1652215,Arts and Literature,Literary,Weekly,30000
+Saturday Night,Philadelphia,PA,39.9525839,-75.1652215,Arts and Literature,Literary,Weekly,100000
+Sunday School Times,Philadelphia,PA,39.9525839,-75.1652215,Religious,Evangelical,Weekly,20700
