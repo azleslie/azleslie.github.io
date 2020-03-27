@@ -6,10 +6,19 @@
     <description>Recent content on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020 Alex Leslie</copyright>
-    <lastBuildDate>Fri, 20 Mar 2020 13:34:52 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2020 19:54:02 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Digital Humanities Workshops</title>
+      <link>/projects/dh-workshops/</link>
+      <pubDate>Wed, 25 Mar 2020 19:54:02 -0500</pubDate>
+      
+      <guid>/projects/dh-workshops/</guid>
+      <description>Since the Spring 2018 semester I have served as the Digital Humanities Graduate Specialist for Rutgers Libraries. Over this time I&amp;rsquo;ve developed a number of workshops, from basic tutorials on using software popular among digital humanists (Gephi, Paladio, Tropy, etc.) to some introductory and intermediate lessons on R programming in the humanities. The links each lead to a GitHub repository page, where you can find all the materials &amp;ndash; code, sample data, and step-by-step instructions &amp;ndash; for running the workshops on your own.</description>
+    </item>
     
     <item>
       <title>News Rhythms</title>
@@ -19,15 +28,6 @@
       <guid>/posts/news-rhythms/</guid>
       <description>We&amp;rsquo;re quite familiar today with the idea of news cycles: the fluctuating window of time it takes for a full turnover of major news items. Underlying these variable, context-driven cycles are other, structural patterns of news making and circulating. These are what I like to call news rhythms.
 The difference is partly a classic superstructure / base distinction in that many of the factors contributing to news rhythms are economic or industrial.</description>
-    </item>
-    
-    <item>
-      <title>Digital Humanities Workshops</title>
-      <link>/projects/dh-workshops/</link>
-      <pubDate>Sat, 08 Feb 2020 19:54:02 -0500</pubDate>
-      
-      <guid>/projects/dh-workshops/</guid>
-      <description>Since the Spring 2018 semester I have served as the Digital Humanities Graduate Specialist for Rutgers Libraries. Over this time I&amp;rsquo;ve developed a number of workshops, from basic tutorials on using software popular among digital humanists (Gephi, Paladio, Tropy, etc.) to some introductory and intermediate lessons on R programming in the humanities. The links each lead to a GitHub repository page, where you can find all the materials &amp;ndash; code, sample data, and step-by-step instructions &amp;ndash; for running the workshops on your own.</description>
     </item>
     
     <item>
