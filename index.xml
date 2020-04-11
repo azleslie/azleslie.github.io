@@ -6,10 +6,28 @@
     <description>Recent content on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020 Alex Leslie</copyright>
-    <lastBuildDate>Wed, 25 Mar 2020 19:54:02 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 08 Apr 2020 19:45:44 -0500</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo and GitHub Pages Tutorial</title>
+      <link>/projects/hugo-tutorial/</link>
+      <pubDate>Thu, 09 Apr 2020 10:20:47 -0500</pubDate>
+      
+      <guid>/projects/hugo-tutorial/</guid>
+      <description>I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning a bit more and potentially helping others avoid my mistakes, I&amp;rsquo;ve gone back through the process step by step here.</description>
+    </item>
+    
+    <item>
+      <title>CV</title>
+      <link>/cv/</link>
+      <pubDate>Wed, 08 Apr 2020 19:45:44 -0500</pubDate>
+      
+      <guid>/cv/</guid>
+      <description>You can download a PDF copy of my CV here.</description>
+    </item>
     
     <item>
       <title>Digital Humanities Workshops</title>
@@ -58,15 +76,6 @@ In this essay I examine the Literary World, the influential literary periodical 
       <guid>/data/antebellum-periodicals/</guid>
       <description>This is a CSV file of the basic metadata for the American Antiquarian Society&amp;rsquo;s Historical Periodicals Collection from 1821-1865, drawn from the EBSCO coverage lists.
 I&amp;rsquo;ve made several improvements. First, I added geographic coordinates for publishing locations. Second, I eliminated some of the redundancy from the original files, though some remains. I wish that the genre field were more consistent and more consolidated, but I think the only way to do that would be to go through entry by entry.</description>
-    </item>
-    
-    <item>
-      <title>CV</title>
-      <link>/cv/</link>
-      <pubDate>Tue, 04 Feb 2020 19:45:44 -0500</pubDate>
-      
-      <guid>/cv/</guid>
-      <description>You can download a PDF copy of my CV here.</description>
     </item>
     
     <item>
