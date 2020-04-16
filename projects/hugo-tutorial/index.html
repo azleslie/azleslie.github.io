@@ -175,7 +175,7 @@ hugo new about.md
 </code></pre><br>
 <span id="githubhosting"></span>
 <h2 id="hosting-on-github">Hosting on GitHub</h2>
-<p>Create a repository on GitHub for the Hugo directory for this project. This isn&rsquo;t where the site itself will live: it&rsquo;s where all the files used to generate the site will live (i.e., everything currently in <code>C:/User/Documents/Hugofiles/sandbox</code>). Mine is <code>mywebsite</code>. Initialize with a readme and an MIT License. The site project repository can be set to private (for example, if you wanted to keep anyone from snooping into your drafts).</p>
+<p>Create a repository on GitHub for the Hugo directory for this project, for example, <code>mywebsite</code>. This isn&rsquo;t where the site itself will live: it&rsquo;s where all the files used to generate the site will live (i.e., everything currently in <code>C:/User/Documents/Hugofiles/sandbox</code>). Initialize with a readme and an MIT License. The site project repository can be set to private (for example, if you wanted to keep anyone from snooping into your drafts).</p>
 <p>Then create a second GitHub repository for the generated website files. The name of this repository needs to follow the format <code>&lt;USERNAME&gt;.github.io</code>. Mine, with the user account &ldquo;azl-test,&rdquo; is <code>azl-test.github.io</code> (<a href="https://azl-test.github.io/">https://azl-test.github.io/</a>). This repository, the website repository itself, will need to remain public.</p>
 <p>Copy the url to the site project repository. Return to the terminal and change directories to wherever you want this project to live. Now clone the repository; log-in prompts may appear if set to private.</p>
 <pre><code>cd C:/User/Documents/Hugfiles
@@ -183,13 +183,13 @@ hugo new about.md
 git clone https://github.com/&lt;USERNAME&gt;/mywebsite
 
 cd mywebsite
-</code></pre><p>In a file viewer window, copy and paste the contents of the site project from the sandbox directory into this new directory. Delete any extra themes after doing so. Verify it still works with <code>hugo server</code>.</p>
+</code></pre><p>In a file viewer window, copy and paste the contents of the site project from the sandbox directory into this new directory. Delete any extra themes after doing so. Verify it still works with <code>hugo server</code> and, when done, end the test with <code>ctrl+c</code>. This <code>mywebsite</code> directory and its corresponding repository will now be just for this particular website: the <code>sandbox</code> directory will remain for any unrelated tinkering or preparations for additional website projects.</p>
 <p>Now it&rsquo;s time to generate the website and push it to the <code>.github.io</code> repository. First clear the <code>public</code> directory in case you made it by accident. On Windows, run:</p>
 <pre><code>rd public /s
 </code></pre><p>On Mac, run:</p>
 <pre><code>rm -rf public
 </code></pre><p>I can&rsquo;t stress this enough: <em>do not repeat this step and do not delete the</em> <code>public</code> <em>directory from this point on.</em> Doing so will confuse git and prevent you from being able to push changes.</p>
-<p>The pairing of Hugo and GitHub requires us to put the generated website files themselves in a <em>submodule</em>. Git submodules are basically repositories nested in other repositories. Hugo generates the actual website files in your site project directory a subdirectory called <code>/public/</code>. So by creating a submodule we&rsquo;re replicating that structure.</p>
+<p>The pairing of Hugo and GitHub requires us to put the generated website files themselves in a <em>submodule</em>. Git submodules are basically repositories nested in other repositories. Hugo generates the actual website files in your site project directory a subdirectory called <code>/public/</code>. So by creating a submodule we&rsquo;re replicating that structure. (Note that the following is one line, not two.)</p>
 <pre><code>git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public
 </code></pre><p>That covers all the setup. You won&rsquo;t need to and, again, should not, repeat them.</p>
 <p>Now to generate the site and push changes to Git. Hugo recommends you create a script to do these steps all in one. Fair enough. They recommend saving this as <code>deploy.sh</code> (in a text editor like Atom, simply create a new file, paste this in, &ldquo;save as,&rdquo; and make sure to type the <code>.sh</code> extension). Save it in the project site directory (i.e., not in <code>/public/</code>).</p>
