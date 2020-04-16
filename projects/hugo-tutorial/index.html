@@ -99,7 +99,8 @@ if (!doNotTrack) {
 <span id="getgit"></span>
 <h2 id="get-git-and-github">Get Git and GitHub</h2>
 <p>First <a href="https://github.com/">sign up for a GitHub account.</a> Note when picking a user name that the website will at least initially have a url that includes it.</p>
-<p>On Windows, install <a href="https://chocolatey.org/">Chocolatey</a> via terminal for managing software packages. All the lines of code in this tutorial should be entered into a command line terminal, and the first few need to be run as administrator. To locate the terminal, search &ldquo;cmd&rdquo; and right click to select &ldquo;run as administrator.&rdquo; Then copy and paste the following (all one line):</p>
+<p>On Windows, install <a href="https://chocolatey.org/">Chocolatey</a> via terminal for managing software packages. All the lines of code in this tutorial should be entered into a command line terminal, and the first few need to be run as administrator. To locate the terminal, search &ldquo;cmd&rdquo; and right click to select &ldquo;run as administrator.&rdquo; It&rsquo;s important to respect case sensitivity: if prompted to confirm downloads, enter <code>Y</code> for yes or <code>A</code> for all.</p>
+<p>Copy and paste the following (all one line):</p>
 <pre><code>@&quot;%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe&quot; -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command &quot; [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))&quot; &amp;&amp; SET &quot;PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&quot;
 </code></pre><p>Verify with:</p>
 <pre><code>choco version
@@ -132,7 +133,7 @@ git config --global user.email &quot;username@example.com&quot;
 </code></pre><p>Change directories to this new directory and list its files. Subdirectory names end with a <code>/</code> while files end with their extension.</p>
 <pre><code>cd testwebsite
 
-ls
+dir
 </code></pre><p>All content lives in the <code>content</code> directory. Content intended for blog post format should be in a subdirectory, e.g. <code>posts</code>, unlike content intended for main menu page format. We&rsquo;ll come to most of the other directories and files here in turn by the end of the next section.</p>
 <p>Create what will be a post (as well as a posts directory) and a page:</p>
 <pre><code>hugo new posts/first-post.md
@@ -184,7 +185,7 @@ git clone https://github.com/&lt;USERNAME&gt;/website
 cd website
 </code></pre><p>Where the terminal lists the current directory path will now end with <code>(master)</code>, signifying it is part of the local master branch of a repository. In a file viewer window, copy and paste the contents of the site project from the sandbox directory into this new directory. Delete any extra themes after doing so. Verify it still works with <code>hugo server</code>.</p>
 <p>Now it&rsquo;s time to generate the website and push it to the <code>.github.io</code> repository. First clear the <code>public</code> directory in case you made it by accident:</p>
-<pre><code>rm -rf public
+<pre><code>rd public /s
 </code></pre><p>I can&rsquo;t stress this enough: <em>do not repeat this step and do not delete the</em> <code>public</code> <em>directory from this point on.</em> Doing so will confuse git and prevent you from being able to push changes.</p>
 <p>The pairing of Hugo and GitHub requires us to put the generated website files themselves in a <em>submodule</em>. Git submodules are basically repositories nested in other repositories. Hugo generates the actual website files in your site project directory a subdirectory called <code>/public/</code>. So by creating a submodule we&rsquo;re replicating that structure.</p>
 <pre><code>git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public
@@ -217,10 +218,19 @@ git commit -m &quot;$msg&quot;
 git push origin master
 </code></pre><p>(You could just as well do this by running the <code>hugo</code>, <code>cd public</code>, <code>git add .</code>, <code>git commit -m &quot;write a commit message here to describe the changes&quot;</code>, and <code>git push origin master</code> commands in order.)</p>
 <p>From your project site directory run:</p>
-<pre><code>./deploy.sh &quot;write a commit message here to describe the changes&quot;
-</code></pre><p>Prompts will ask for Git username and password.</p>
-<p>Changes should be live shortly at <code>https://&lt;USERNAME&gt;.github.io</code> (a hard refresh might be necessary). Future edits will only require this line invoking the deploy script.</p>
-<p>Push changes to the site project repository as well by using the <code>git add .</code>, <code>git commit -m &quot;a commit message&quot;</code>, and <code>git push origin master</code> commands in order. It is important to keep this repository up to date with local changes because these are the files from which the website repository is generated and they also contain any draft posts/pages.</p>
+<pre><code>deploy.sh &quot;write a commit message here to describe the changes you made&quot;
+</code></pre><p>Prompts may ask for Git username and password.</p>
+<p>Changes should be live shortly at <code>https://&lt;USERNAME&gt;.github.io</code> (a hard refresh might be necessary). Future edits will only require this single line invoking the deploy script.</p>
+<p>Push changes to the site project repository as well by using the <code>git add .</code>, <code>git commit -m &quot;a commit message&quot;</code>, and <code>git push origin master</code> commands in order. It is important to keep this repository up to date with local changes because these are the files from which the website repository is generated (they also contain any draft posts/pages). Should something happen to the files on your local computer, you will be able to <code>git pull</code> or <code>git clone</code> them again to recover them.</p>
+<p>What if the local test works but the website looks goofy? Make sure the &ldquo;baseURL&rdquo; field in the <code>config</code> file is either empty or matches the <USERNAME>.github.io address exactly.</p>
+<p>What if the local test works but the website doesn&rsquo;t show at all? First check the GitHub webpages for the site project repository and the <USERNAME>.github.io repository to see what, if any, commits went through. The most common issues involve the <code>/public/</code> directory-submodule setup, usually as a result of not clearing <code>/public/</code> before setting up the submodule or deleting it afterwards. This is probably the case if the terminal returns the error message &ldquo;fatal: in unpopulated submodule&rdquo; or if commits present in the site project repository are absent from the <USERNAME>.github.io repository.</p>
+<p>Since there are a couple different ways to get into this knot, here&rsquo;s the most encompassing/painless way to untie it. Four steps:</p>
+<ol>
+<li>Delete <code>/public/</code> from your site project directory and then push the changes from that directory in the terminal with the  <code>git add .</code>, <code>git commit -m &quot;deleted public directory&quot;</code>, and <code>git push origin master</code> commands in order.</li>
+<li>Delete the <USERNAME>.github.io repository by going to the corresponding GitHub webpage, clicking the &ldquo;Settings&rdquo; tab, scrolling to the Danger Zone at the bottom, and selecting &ldquo;Delete this repository.&rdquo; GitHub will ask you to type the full name of the repository to make sure you&rsquo;re sure.</li>
+<li>Recreate the <USERNAME>.github.io repository from the ashes the same way as before, at the start of this section of the tutorial.</li>
+<li>Repeat the <code>git submodule</code> line above and run the <code>deploy.sh</code> script again with an appropriate commit message.</li>
+</ol>
 <br>
 <span id="customdomain"></span>
 <h2 id="custom-domain-name-setup">Custom Domain Name Setup</h2>
