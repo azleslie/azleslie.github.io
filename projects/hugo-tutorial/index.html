@@ -98,7 +98,7 @@ if (!doNotTrack) {
 <br>
 <span id="getgit"></span>
 <h2 id="get-git-and-github">Get Git and GitHub</h2>
-<p>First <a href="https://github.com/">sign up for a GitHub account.</a> Note when picking a user name that the website will at least initially have a url that includes it.</p>
+<p>First <a href="https://github.com/">sign up for a GitHub account.</a> Note when picking a user name that the website will at least initially have a url that includes it. GitHub will ask for email verification as well.</p>
 <p>On Windows, install <a href="https://chocolatey.org/">Chocolatey</a> via terminal for managing software packages. All the lines of code in this tutorial should be entered into a command line terminal, and the first few need to be run as administrator. To locate the terminal, search &ldquo;cmd&rdquo; and right click to select &ldquo;run as administrator.&rdquo; It&rsquo;s important to respect case sensitivity: if prompted to confirm downloads, enter <code>Y</code> for yes or <code>A</code> for all.</p>
 <p>Copy and paste the following (all one line):</p>
 <pre><code>@&quot;%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe&quot; -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command &quot; [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))&quot; &amp;&amp; SET &quot;PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin&quot;
@@ -124,19 +124,16 @@ git config --global user.email &quot;username@example.com&quot;
 <pre><code>choco install hugo -confirm
 </code></pre><p>And verify:</p>
 <pre><code>hugo version
-</code></pre><p>Navigate to where a general Hugo directory, or folder, will live. This will be something of a sandbox for trying things out.</p>
+</code></pre><p>Navigate to where a directory for all Hugo files will live; presumably somewhere like:</p>
 <pre><code>cd C:/User/Documents
-</code></pre><p>Make the new sandbox directory itself:</p>
+</code></pre><p>Make the new directory for all Hugo files itself:</p>
 <pre><code>mkdir Hugofiles
-</code></pre><p>Create a directory and the necessary files/subdirectories for a new site (note that this command begins with <code>hugo</code>, because it is Hugo-specific):</p>
-<pre><code>hugo new site testwebsite
-</code></pre><p>Change directories to this new directory and list its files. Subdirectory names end with a <code>/</code> while files end with their extension.</p>
-<pre><code>cd testwebsite
+</code></pre><p>Create a directory and the necessary files/subdirectories for a new site (note that this command begins with <code>hugo</code>, because it is Hugo-specific). This will be something of a sandbox for trying things out: when ready to deploy a website we&rsquo;ll create a second directory in <code>/Hugofiles/</code> just for it so that this first sandbox directory can continue to be used for experimenting without risk.</p>
+<pre><code>hugo new site sandbox
+</code></pre><p>Change directories to this new sandbox directory and create what will be a post (as well as a posts directory, via the <code>/</code>) and a page:</p>
+<pre><code>cd sandbox
 
-dir
-</code></pre><p>All content lives in the <code>content</code> directory. Content intended for blog post format should be in a subdirectory, e.g. <code>posts</code>, unlike content intended for main menu page format. We&rsquo;ll come to most of the other directories and files here in turn by the end of the next section.</p>
-<p>Create what will be a post (as well as a posts directory) and a page:</p>
-<pre><code>hugo new posts/first-post.md
+hugo new posts/first-post.md
 
 hugo new about.md
 </code></pre><p><a href="https://themes.gohugo.io/">Select a theme.</a> Theme documentation is often helpful, but some require more editing or subdirectory structuring than others. Themes with basic structures and minimal bells/whistles are friendliest to you; also check that the demo page functions (missing images is ok, but if the layout is jumbled stay away). The added benefit of simpler themes is that it&rsquo;s also easier to switch between them if desired.</p>
@@ -155,7 +152,7 @@ hugo new about.md
 <p>That said, there are many more great, easy-to-use options available, especially if you browse with the above tips in mind. After deciding, add a theme to the <code>/themes/</code> subdirectory in the terminal from the site project directory.</p>
 <pre><code>git clone https://github.com/Track3/hermit.git themes/hermit
 </code></pre><p>Copy the file named <code>config</code> from the <code>/exampleSite/</code> directory in <code>/themes/</code> and paste it in the root site project directory, replacing the <code>config</code> file that was there. This file governs site basics and cross-site variables; as these vary from theme to theme, it&rsquo;s best to use the example as a template. Remove all text in the baseURL field so that it is only <code>&quot;&quot;</code>. Edit site name, author name, social media links, theme color, and <code>[[menu.main]]</code> fields, making sure the fields match file names and directory paths exactly. Depending on the theme, some of these fields can be single pages and others directories of multiple pages in blog post format. Some themes allow multiple post-style sections; others use tags; some allow multiple language settings. Every theme has additional unique configuration options.</p>
-<p>Open one of the new post files just made (in <code>/content/</code>). New posts are listed as drafts in their header by default until changed; only when the value of <code>draft</code> is <code>false</code> will the file be rendered as part of the website. When writing, use <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">basic markdown syntax</a> for basic stylization such as emphasis, headers, links, and images. Hugo will transform this into the appropriate HTML.</p>
+<p>All content lives in the <code>content</code> directory. Content intended for blog post format should be created in a subdirectory, e.g. as above in <code>posts</code>, unlike content intended for main menu page format. Open one of the new post files just made (in <code>/content/</code>). New posts are listed as drafts in their header by default until changed; only when the value of <code>draft</code> is <code>false</code> will the file be rendered as part of the website. When writing, use <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">basic markdown syntax</a> for basic stylization such as emphasis, headers, links, and images. Hugo will transform this into the appropriate HTML.</p>
 <p>To attach a file, whether for embedding or downloading, first paste the file into the <code>static</code> directory. In the markdown file for the page it will be attached to, write the name of the file as if it were a link, prefixed with a single backslash (<code>/</code>).</p>
 <p>When ready, generate a live-updating local test of the site:</p>
 <pre><code>hugo server
@@ -169,23 +166,28 @@ hugo new about.md
 <pre><code>choco install hugo-extended -confirm
 </code></pre><p>If given a &ldquo;module not found&rdquo; error when generating the local preview, check the config file for a line reading <code>themesDir = &quot;../..&quot;</code> and delete it. If given an unknown characters or encoding error, it is probably from editing and saving theme files in programs that try to overwrite their character encoding, like plain Notebook or Microsoft Word (again, I recommend <a href="https://atom.io/">Atom</a>).</p>
 <p>Themes directories are all organized similarly, which makes it easy to customize HTML or CSS. When doing so, first copy and paste the pertinent files from the <code>/themes/</code> directory to the root site project directory, recreating relative paths (i.e., <code>/website/themes/hermit/assets/css/normalize.css</code> would be copied to <code>/website/assets/css/normalize.css</code>). Hugo prioritizes any root files over those found in <code>/themes/</code> when generating sites, and moving files to root facilitates version control. For that reason, make sure to edit these and not the originals. (If changing themes later, however, it will be necessary to empty these directories.)</p>
-<p>Customizing HTML or CSS can vary considerably from theme to theme. Some tasks, like changing fonts or sizes &ndash; a matter for CSS and thus usually in an <code>/assets/</code> file <code>template.css</code> &ndash; are pretty straightforward and simple to locate. This is a good place to begin. Removing features (like theme icons or &ldquo;reading time&rdquo; estimates) is generally easier than adding something new; doing so is a matter of excising the corresponding HTML. HTML files are in <code>/layouts/</code> and divided up into parts. Rather than deleting a feature &ndash; since you may wish to restore it in the future &ndash; I suggest using enclosing it in comment tags so that it remains in the file but won&rsquo;t actually render. <code>&lt;!-- These are HTML comment tags --&gt;</code>, and <code>/* These are CSS comment tags */</code>.</p>
-<p>The Inspect tool in the Chrome browser (an option when you right-click any blank space on a webpage) is a nice shortcut to identifying the code that produces a particular feature. Expand elements in the upper right as necessary by clicking the arrow; elements on the page will highlight when hovering over the HTML tag in which they are nested. Once a tag is identified, run a <code>grep</code> command line search in the terminal to identify where the corresponding code resides (<code>-</code> adds options, <code>r</code> searches subdirectories as well, <code>n</code> gives the line number for each hit, <code>o</code> only shows the matching text).</p>
+<p>Customizing HTML or CSS can vary considerably from theme to theme. Styling tasks, like changing fonts, sizes, or colors &ndash; a matter for CSS and thus usually in an <code>/assets/</code> file with a name like <code>template</code> or <code>predefined</code> &ndash; are fairly straightforward. This is a good place to begin. In the Hermit theme one could open <code>/assets/_predefined.scss</code> and change <code>$fonts:</code> to, say &ldquo;Georgia&rdquo; or another universal (or imported) font.</p>
+<p>Removing features (like icons or &ldquo;reading time&rdquo; estimates) is generally easier than adding new ones; just excise the corresponding HTML. HTML files are in <code>/layouts/</code> and divided up into parts. Rather than deleting a feature &ndash; since you may wish to restore it in the future &ndash; I suggest using enclosing it in comment tags so that it remains in the file but won&rsquo;t actually render. <code>&lt;!-- These are HTML comment tags --&gt;</code>, and <code>/* These are CSS comment tags */</code>. In the Hermit theme one could remove word counts by opening <code>/layouts/posts/single.html</code> and placing the whole <code>&lt;p&gt;&lt;/p&gt;</code> tag containing &ldquo;wordCount&rdquo; in comment tags.</p>
+<p>The Inspect tool in the Chrome browser (an option when you right-click any blank space on a webpage) is a nice shortcut to identifying the code that produces a particular feature. Expand elements in the upper right as necessary by clicking the arrow; elements on the page will highlight when hovering over the HTML tag in which they are nested. Once a tag is identified, run a search in the terminal to identify where the corresponding code resides. In Windows, use <code>findstr</code> (<code>/n</code> gives the line number for each hit, <code>/s</code> searches subdirectories as well, <code>*.*</code> searches all files of all extensions):</p>
+<pre><code>findstr /n /s &quot;text you're searching for&quot; *.*
+</code></pre><p>On Mac and BASH terminals, use <code>grep</code> (<code>-</code> adds options, <code>r</code> searches subdirectories as well, <code>n</code> gives the line number for each hit, <code>o</code> only shows the matching text):</p>
 <pre><code>grep -rno &quot;text you're searching for&quot;
 </code></pre><br>
 <span id="githubhosting"></span>
 <h2 id="hosting-on-github">Hosting on GitHub</h2>
-<p>Create a repository on GitHub for the Hugo directory for this project. This isn&rsquo;t where the site itself will live: it&rsquo;s where everything currently in your <code>C:/User/Documents/Hugo/&lt;SITENAME&gt;</code> site project directory will live, pre- and post-generated files. Mine is <code>website</code>. Initialize with a readme and an MIT License. The site project repository can be set to private (for example, if you wanted to keep anyone from snooping into your drafts).</p>
+<p>Create a repository on GitHub for the Hugo directory for this project. This isn&rsquo;t where the site itself will live: it&rsquo;s where all the files used to generate the site will live (i.e., everything currently in <code>C:/User/Documents/Hugofiles/sandbox</code>). Mine is <code>mywebsite</code>. Initialize with a readme and an MIT License. The site project repository can be set to private (for example, if you wanted to keep anyone from snooping into your drafts).</p>
 <p>Then create a second GitHub repository for the generated website files. The name of this repository needs to follow the format <code>&lt;USERNAME&gt;.github.io</code>. Mine, with the user account &ldquo;azl-test,&rdquo; is <code>azl-test.github.io</code> (<a href="https://azl-test.github.io/">https://azl-test.github.io/</a>). This repository, the website repository itself, will need to remain public.</p>
-<p>Copy the url to the site project repository. Return to the terminal and change directories to wherever you want this project to live. Now clone the repository; log-in prompts will appear if locked.</p>
-<pre><code>cd C:/User/Documents
+<p>Copy the url to the site project repository. Return to the terminal and change directories to wherever you want this project to live. Now clone the repository; log-in prompts may appear if set to private.</p>
+<pre><code>cd C:/User/Documents/Hugfiles
 
-git clone https://github.com/&lt;USERNAME&gt;/website
+git clone https://github.com/&lt;USERNAME&gt;/mywebsite
 
-cd website
-</code></pre><p>Where the terminal lists the current directory path will now end with <code>(master)</code>, signifying it is part of the local master branch of a repository. In a file viewer window, copy and paste the contents of the site project from the sandbox directory into this new directory. Delete any extra themes after doing so. Verify it still works with <code>hugo server</code>.</p>
-<p>Now it&rsquo;s time to generate the website and push it to the <code>.github.io</code> repository. First clear the <code>public</code> directory in case you made it by accident:</p>
+cd mywebsite
+</code></pre><p>In a file viewer window, copy and paste the contents of the site project from the sandbox directory into this new directory. Delete any extra themes after doing so. Verify it still works with <code>hugo server</code>.</p>
+<p>Now it&rsquo;s time to generate the website and push it to the <code>.github.io</code> repository. First clear the <code>public</code> directory in case you made it by accident. On Windows, run:</p>
 <pre><code>rd public /s
+</code></pre><p>On Mac, run:</p>
+<pre><code>rm -rf public
 </code></pre><p>I can&rsquo;t stress this enough: <em>do not repeat this step and do not delete the</em> <code>public</code> <em>directory from this point on.</em> Doing so will confuse git and prevent you from being able to push changes.</p>
 <p>The pairing of Hugo and GitHub requires us to put the generated website files themselves in a <em>submodule</em>. Git submodules are basically repositories nested in other repositories. Hugo generates the actual website files in your site project directory a subdirectory called <code>/public/</code>. So by creating a submodule we&rsquo;re replicating that structure.</p>
 <pre><code>git submodule add -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public
@@ -217,8 +219,10 @@ git commit -m &quot;$msg&quot;
 # Push source and build repos.
 git push origin master
 </code></pre><p>(You could just as well do this by running the <code>hugo</code>, <code>cd public</code>, <code>git add .</code>, <code>git commit -m &quot;write a commit message here to describe the changes&quot;</code>, and <code>git push origin master</code> commands in order.)</p>
-<p>From your project site directory run:</p>
+<p>On Windows, in your project site directory run:</p>
 <pre><code>deploy.sh &quot;write a commit message here to describe the changes you made&quot;
+</code></pre><p>On Mac, in your project site directory run:</p>
+<pre><code>./deploy.sh &quot;write a commit message here to describe the changes you made&quot;
 </code></pre><p>Prompts may ask for Git username and password.</p>
 <p>Changes should be live shortly at <code>https://&lt;USERNAME&gt;.github.io</code> (a hard refresh might be necessary). Future edits will only require this single line invoking the deploy script.</p>
 <p>Push changes to the site project repository as well by using the <code>git add .</code>, <code>git commit -m &quot;a commit message&quot;</code>, and <code>git push origin master</code> commands in order. It is important to keep this repository up to date with local changes because these are the files from which the website repository is generated (they also contain any draft posts/pages). Should something happen to the files on your local computer, you will be able to <code>git pull</code> or <code>git clone</code> them again to recover them.</p>
