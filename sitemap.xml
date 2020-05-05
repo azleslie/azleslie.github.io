@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/</loc>
+    <lastmod>2020-05-05T12:45:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/cv/</loc>
+    <lastmod>2020-05-05T12:45:44-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2020-05-05T12:45:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/spanish-flu/</loc>
+    <lastmod>2020-05-04T19:19:30-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-05-04T19:19:30-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/projects/hugo-tutorial/</loc>
     <lastmod>2020-04-09T10:20:47-05:00</lastmod>
   </url>
@@ -13,32 +38,12 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-04-08T19:45:44-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/cv/</loc>
-    <lastmod>2020-04-08T19:45:44-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2020-04-08T19:45:40-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/dh-workshops/</loc>
     <lastmod>2020-03-25T19:54:02-05:00</lastmod>
   </url>
   
   <url>
     <loc>/posts/news-rhythms/</loc>
-    <lastmod>2020-03-20T13:34:52-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
     <lastmod>2020-03-20T13:34:52-04:00</lastmod>
   </url>
   
