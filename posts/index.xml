@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Alex Zweber Leslie</title>
-    <link>/posts/</link>
+    <link>https://azleslie.com/posts/</link>
     <description>Recent content in Posts on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020 Alex Leslie</copyright>
     <lastBuildDate>Mon, 04 May 2020 19:19:30 -0400</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://azleslie.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How the Spanish Flu Went Viral (And Then Got Boring)</title>
-      <link>/posts/spanish-flu/</link>
+      <link>https://azleslie.com/posts/spanish-flu/</link>
       <pubDate>Mon, 04 May 2020 19:19:30 -0400</pubDate>
       
-      <guid>/posts/spanish-flu/</guid>
+      <guid>https://azleslie.com/posts/spanish-flu/</guid>
       <description>What feels most modern about this pandemic &amp;ndash; the all-pervasive news coverage &amp;ndash; has a precedent in the 1918 Spanish flu that suggests why it’s already tapering.
 Despite expert warnings that coronavirus repercussions will extend through summer, politicians aren’t the only ones wondering how much longer even partial lockdowns can last. The trouble isn’t just impatience. Almost two months after the cancellations of events and entertainment nationwide, the sheer inescapability of pandemic discourse raises the question of how much longer we can remain interested enough to follow its advice.</description>
     </item>
     
     <item>
       <title>News Rhythms</title>
-      <link>/posts/news-rhythms/</link>
+      <link>https://azleslie.com/posts/news-rhythms/</link>
       <pubDate>Fri, 20 Mar 2020 13:34:52 -0400</pubDate>
       
-      <guid>/posts/news-rhythms/</guid>
+      <guid>https://azleslie.com/posts/news-rhythms/</guid>
       <description>We&amp;rsquo;re quite familiar today with the idea of news cycles: the fluctuating window of time it takes for a full turnover of major news items. Underlying these variable, context-driven cycles are other, structural patterns of news making and circulating. These are what I like to call news rhythms.
 The difference is partly a classic superstructure / base distinction in that many of the factors contributing to news rhythms are economic or industrial.</description>
     </item>
     
     <item>
       <title>New Site</title>
-      <link>/posts/new-site/</link>
+      <link>https://azleslie.com/posts/new-site/</link>
       <pubDate>Tue, 04 Feb 2020 19:45:27 -0500</pubDate>
       
-      <guid>/posts/new-site/</guid>
+      <guid>https://azleslie.com/posts/new-site/</guid>
       <description>I decided to bite the bullet and make a website. I hope you like it.
 You&amp;rsquo;ll find various professional materials collected here, complete with links and downloads. I also hope to use this site as a place to make available some of the datasets from my research and to share occasional thoughts on whatever materials or methods happen to excite me at the moment.
 As for the site itself, I wanted something that was minimalist in both aesthetics and organization in order to keep content local, get under the hood, and get more experience with HTML, CSS, and the command line along the way.</description>

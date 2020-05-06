@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Alex Zweber Leslie</title>
-    <link>/projects/</link>
+    <link>https://azleslie.com/projects/</link>
     <description>Recent content in Projects on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020 Alex Leslie</copyright>
     <lastBuildDate>Thu, 09 Apr 2020 10:20:47 -0500</lastBuildDate>
     
-	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://azleslie.com/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hugo and GitHub Pages Tutorial</title>
-      <link>/projects/hugo-tutorial/</link>
+      <link>https://azleslie.com/projects/hugo-tutorial/</link>
       <pubDate>Thu, 09 Apr 2020 10:20:47 -0500</pubDate>
       
-      <guid>/projects/hugo-tutorial/</guid>
+      <guid>https://azleslie.com/projects/hugo-tutorial/</guid>
       <description>I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning a bit more and potentially helping others avoid my mistakes, I&amp;rsquo;ve gone back through the process step by step here.</description>
     </item>
     
     <item>
       <title>Digital Humanities Workshops</title>
-      <link>/projects/dh-workshops/</link>
+      <link>https://azleslie.com/projects/dh-workshops/</link>
       <pubDate>Wed, 25 Mar 2020 19:54:02 -0500</pubDate>
       
-      <guid>/projects/dh-workshops/</guid>
+      <guid>https://azleslie.com/projects/dh-workshops/</guid>
       <description>Since the Spring 2018 semester I have served as the Digital Humanities Graduate Specialist for Rutgers Libraries. Over this time I&amp;rsquo;ve developed a number of workshops, from basic tutorials on using software popular among digital humanists (Gephi, Paladio, Tropy, etc.) to some introductory and intermediate lessons on R programming in the humanities. The links each lead to a GitHub repository page, where you can find all the materials &amp;ndash; code, sample data, and step-by-step instructions &amp;ndash; for running the workshops on your own.</description>
     </item>
     

@@ -2,108 +2,108 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alex Zweber Leslie</title>
-    <link>/</link>
+    <link>https://azleslie.com/</link>
     <description>Recent content on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020 Alex Leslie</copyright>
     <lastBuildDate>Tue, 05 May 2020 12:45:44 -0500</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://azleslie.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CV</title>
-      <link>/cv/</link>
+      <link>https://azleslie.com/cv/</link>
       <pubDate>Tue, 05 May 2020 12:45:44 -0500</pubDate>
       
-      <guid>/cv/</guid>
+      <guid>https://azleslie.com/cv/</guid>
       <description>You can download a PDF copy of my CV here.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/</link>
+      <link>https://azleslie.com/about/</link>
       <pubDate>Tue, 05 May 2020 12:45:40 -0500</pubDate>
       
-      <guid>/about/</guid>
+      <guid>https://azleslie.com/about/</guid>
       <description>I am a Raritan Fellow and PhD candidate in the English Department at Rutgers University. I specialize in American cultural history from the Early Republic to Modernism, with particular focus on circulation and reception, cultural geography, genre, and digital humanities methods.
 My dissertation, &amp;ldquo;Reading Regions: Cultural Geography and American Literature, 1865-1925,&amp;rdquo; argues that region was not simply a framework for representing cultural difference but a structuring principle of the cultural field.</description>
     </item>
     
     <item>
       <title>How the Spanish Flu Went Viral (And Then Got Boring)</title>
-      <link>/posts/spanish-flu/</link>
+      <link>https://azleslie.com/posts/spanish-flu/</link>
       <pubDate>Mon, 04 May 2020 19:19:30 -0400</pubDate>
       
-      <guid>/posts/spanish-flu/</guid>
+      <guid>https://azleslie.com/posts/spanish-flu/</guid>
       <description>What feels most modern about this pandemic &amp;ndash; the all-pervasive news coverage &amp;ndash; has a precedent in the 1918 Spanish flu that suggests why it’s already tapering.
 Despite expert warnings that coronavirus repercussions will extend through summer, politicians aren’t the only ones wondering how much longer even partial lockdowns can last. The trouble isn’t just impatience. Almost two months after the cancellations of events and entertainment nationwide, the sheer inescapability of pandemic discourse raises the question of how much longer we can remain interested enough to follow its advice.</description>
     </item>
     
     <item>
       <title>Hugo and GitHub Pages Tutorial</title>
-      <link>/projects/hugo-tutorial/</link>
+      <link>https://azleslie.com/projects/hugo-tutorial/</link>
       <pubDate>Thu, 09 Apr 2020 10:20:47 -0500</pubDate>
       
-      <guid>/projects/hugo-tutorial/</guid>
+      <guid>https://azleslie.com/projects/hugo-tutorial/</guid>
       <description>I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning a bit more and potentially helping others avoid my mistakes, I&amp;rsquo;ve gone back through the process step by step here.</description>
     </item>
     
     <item>
       <title>Digital Humanities Workshops</title>
-      <link>/projects/dh-workshops/</link>
+      <link>https://azleslie.com/projects/dh-workshops/</link>
       <pubDate>Wed, 25 Mar 2020 19:54:02 -0500</pubDate>
       
-      <guid>/projects/dh-workshops/</guid>
+      <guid>https://azleslie.com/projects/dh-workshops/</guid>
       <description>Since the Spring 2018 semester I have served as the Digital Humanities Graduate Specialist for Rutgers Libraries. Over this time I&amp;rsquo;ve developed a number of workshops, from basic tutorials on using software popular among digital humanists (Gephi, Paladio, Tropy, etc.) to some introductory and intermediate lessons on R programming in the humanities. The links each lead to a GitHub repository page, where you can find all the materials &amp;ndash; code, sample data, and step-by-step instructions &amp;ndash; for running the workshops on your own.</description>
     </item>
     
     <item>
       <title>News Rhythms</title>
-      <link>/posts/news-rhythms/</link>
+      <link>https://azleslie.com/posts/news-rhythms/</link>
       <pubDate>Fri, 20 Mar 2020 13:34:52 -0400</pubDate>
       
-      <guid>/posts/news-rhythms/</guid>
+      <guid>https://azleslie.com/posts/news-rhythms/</guid>
       <description>We&amp;rsquo;re quite familiar today with the idea of news cycles: the fluctuating window of time it takes for a full turnover of major news items. Underlying these variable, context-driven cycles are other, structural patterns of news making and circulating. These are what I like to call news rhythms.
 The difference is partly a classic superstructure / base distinction in that many of the factors contributing to news rhythms are economic or industrial.</description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/teaching/</link>
+      <link>https://azleslie.com/teaching/</link>
       <pubDate>Tue, 04 Feb 2020 20:44:09 -0500</pubDate>
       
-      <guid>/teaching/</guid>
+      <guid>https://azleslie.com/teaching/</guid>
       <description>Re-Writing and Re-Fighting the Civil War (358:442, Summer 2018)
 As recent conflicts over Confederate monuments have shown, the American Civil War remains hotly contested over one hundred and fifty years after its conclusion: why did it begin? what did soldiers or politicians on either side fight for? what was the result? who really “won”? If even such fundamental questions as these seem unclear to so many people, it’s because the story of the Civil War has been retold so many times and for so many different reasons that the war itself has become less important than the stories we tell about it.</description>
     </item>
     
     <item>
       <title>Writing</title>
-      <link>/writing/</link>
+      <link>https://azleslie.com/writing/</link>
       <pubDate>Tue, 04 Feb 2020 20:44:02 -0500</pubDate>
       
-      <guid>/writing/</guid>
+      <guid>https://azleslie.com/writing/</guid>
       <description>Peer Reviewed &amp;ldquo;Regional Nationalism and the Ends of the Literary World,&amp;rdquo; J19: the Journal of Nineteenth-Century Americanists 7.2 (Fall 2019): 249-275. Download here.
 In this essay I examine the Literary World, the influential literary periodical edited by Evert Duyckinck, to rethink the relationship between region and nation in antebellum cultural geography. I argue that there were multiple literary nationalisms, each a regionally distinctive invocation of nationalist rhetoric on behalf of regional interests that belied rather than represented or advocated a national literature.</description>
     </item>
     
     <item>
       <title>Antebellum Periodicals Metadata</title>
-      <link>/data/antebellum-periodicals/</link>
+      <link>https://azleslie.com/data/antebellum-periodicals/</link>
       <pubDate>Tue, 04 Feb 2020 20:09:33 -0500</pubDate>
       
-      <guid>/data/antebellum-periodicals/</guid>
+      <guid>https://azleslie.com/data/antebellum-periodicals/</guid>
       <description>This is a CSV file of the basic metadata for the American Antiquarian Society&amp;rsquo;s Historical Periodicals Collection from 1821-1865, drawn from the EBSCO coverage lists.
 I&amp;rsquo;ve made several improvements. First, I added geographic coordinates for publishing locations. Second, I eliminated some of the redundancy from the original files, though some remains. I wish that the genre field were more consistent and more consolidated, but I think the only way to do that would be to go through entry by entry.</description>
     </item>
     
     <item>
       <title>New Site</title>
-      <link>/posts/new-site/</link>
+      <link>https://azleslie.com/posts/new-site/</link>
       <pubDate>Tue, 04 Feb 2020 19:45:27 -0500</pubDate>
       
-      <guid>/posts/new-site/</guid>
+      <guid>https://azleslie.com/posts/new-site/</guid>
       <description>I decided to bite the bullet and make a website. I hope you like it.
 You&amp;rsquo;ll find various professional materials collected here, complete with links and downloads. I also hope to use this site as a place to make available some of the datasets from my research and to share occasional thoughts on whatever materials or methods happen to excite me at the moment.
 As for the site itself, I wanted something that was minimalist in both aesthetics and organization in order to keep content local, get under the hood, and get more experience with HTML, CSS, and the command line along the way.</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data on Alex Zweber Leslie</title>
-    <link>/data/</link>
+    <link>https://azleslie.com/data/</link>
     <description>Recent content in Data on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020 Alex Leslie</copyright>
     <lastBuildDate>Tue, 04 Feb 2020 20:09:33 -0500</lastBuildDate>
     
-	<atom:link href="/data/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://azleslie.com/data/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Antebellum Periodicals Metadata</title>
-      <link>/data/antebellum-periodicals/</link>
+      <link>https://azleslie.com/data/antebellum-periodicals/</link>
       <pubDate>Tue, 04 Feb 2020 20:09:33 -0500</pubDate>
       
-      <guid>/data/antebellum-periodicals/</guid>
+      <guid>https://azleslie.com/data/antebellum-periodicals/</guid>
       <description>This is a CSV file of the basic metadata for the American Antiquarian Society&amp;rsquo;s Historical Periodicals Collection from 1821-1865, drawn from the EBSCO coverage lists.
 I&amp;rsquo;ve made several improvements. First, I added geographic coordinates for publishing locations. Second, I eliminated some of the redundancy from the original files, though some remains. I wish that the genre field were more consistent and more consolidated, but I think the only way to do that would be to go through entry by entry.</description>
     </item>
