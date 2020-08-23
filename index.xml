@@ -12,12 +12,21 @@
     
     
     <item>
+      <title>Digital Humanities Workshops</title>
+      <link>https://azleslie.com/projects/dh-workshops/</link>
+      <pubDate>Sun, 23 Aug 2020 12:54:02 -0500</pubDate>
+      
+      <guid>https://azleslie.com/projects/dh-workshops/</guid>
+      <description>Since the Spring 2018 semester I have served as the Digital Humanities Graduate Specialist for Rutgers Libraries. Over this time I&amp;rsquo;ve developed a number of workshops, from basic tutorials on using software popular among digital humanists (Gephi, Paladio, Tropy, etc.) to introductory and intermediate lessons on R programming in the humanities. The links each lead to a GitHub repository page, where you can find all the materials &amp;ndash; code, sample data, and step-by-step instructions &amp;ndash; for running the workshops on your own.</description>
+    </item>
+    
+    <item>
       <title>North American Booksellers, 1915</title>
       <link>https://azleslie.com/data/booksellers1915/</link>
       <pubDate>Thu, 06 Aug 2020 12:20:15 -0400</pubDate>
       
       <guid>https://azleslie.com/data/booksellers1915/</guid>
-      <description>This dataset is a near-comprehensive record of dedicated booksellers in the U.S. and Canada in 1915, compiled by Publishers&amp;rsquo; Weekly.1 Though Americans had several non-storefront sources of books (including mail order and subscription), this dataset gives insight into the locations, volume, and types of stores from which Americans could purchase books in the Progressive Era.
+      <description>This dataset is a near-comprehensive record of bookstores and dedicated booksellers in the U.S. and Canada in 1915, compiled by Publishers&amp;rsquo; Weekly.1 Though Americans had several non-storefront sources of books (including mail order and subscription), this dataset gives insight into the locations, volume, and types of stores from which Americans could purchase books in the Progressive Era.
 The Publishers&amp;rsquo; Weekly directory primarily consists of American booksellers, but it includes a significant number of Canadian booksellers as well as a few in Cuba, Mexico, and the Philippines.</description>
     </item>
     
@@ -76,15 +85,6 @@ Despite expert warnings that coronavirus repercussions will extend through summe
       
       <guid>https://azleslie.com/projects/hugo-tutorial/</guid>
       <description>I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning a bit more and potentially helping others avoid my mistakes, I&amp;rsquo;ve gone back through the process step by step here.</description>
-    </item>
-    
-    <item>
-      <title>Digital Humanities Workshops</title>
-      <link>https://azleslie.com/projects/dh-workshops/</link>
-      <pubDate>Wed, 25 Mar 2020 19:54:02 -0500</pubDate>
-      
-      <guid>https://azleslie.com/projects/dh-workshops/</guid>
-      <description>Since the Spring 2018 semester I have served as the Digital Humanities Graduate Specialist for Rutgers Libraries. Over this time I&amp;rsquo;ve developed a number of workshops, from basic tutorials on using software popular among digital humanists (Gephi, Paladio, Tropy, etc.) to some introductory and intermediate lessons on R programming in the humanities. The links each lead to a GitHub repository page, where you can find all the materials &amp;ndash; code, sample data, and step-by-step instructions &amp;ndash; for running the workshops on your own.</description>
     </item>
     
     <item>

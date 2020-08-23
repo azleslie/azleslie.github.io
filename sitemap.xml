@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://azleslie.com/projects/dh-workshops/</loc>
+    <lastmod>2020-08-23T12:54:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://azleslie.com/projects/</loc>
+    <lastmod>2020-08-23T12:54:02-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://azleslie.com/data/</loc>
     <lastmod>2020-08-06T12:20:15-04:00</lastmod>
   </url>
@@ -50,16 +60,6 @@
   <url>
     <loc>https://azleslie.com/projects/hugo-tutorial/</loc>
     <lastmod>2020-04-09T10:20:47-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://azleslie.com/projects/</loc>
-    <lastmod>2020-04-09T10:20:47-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://azleslie.com/projects/dh-workshops/</loc>
-    <lastmod>2020-03-25T19:54:02-05:00</lastmod>
   </url>
   
   <url>
