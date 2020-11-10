@@ -73,8 +73,8 @@ Newspaper agencies were a major go-between for advertisers and periodicals in th
       <pubDate>Tue, 05 May 2020 12:45:40 -0500</pubDate>
       
       <guid>https://azleslie.com/about/</guid>
-      <description>I am a Bevier Fellow and PhD candidate in the English Department at Rutgers University. I specialize in American cultural history from the Early Republic to Modernism, with particular focus on circulation and reception, cultural geography, genre, and digital humanities methods.
-My dissertation, &amp;ldquo;Reading Regions: Cultural Geography and American Literature, 1865-1925,&amp;rdquo; argues that region was not simply a framework for representing cultural difference but a structuring principle of the cultural field.</description>
+      <description>I am a Bevier Fellow and PhD candidate in the English Department at Rutgers University. I specialize in American cultural history from the Early Republic to Modernism, with particular focus on circulation and reception, cultural geography, genre, and digital humanities.
+My dissertation, &amp;ldquo;Reading Regions: Cultural Geography and American Literature, 1865-1925,&amp;rdquo; combines literary, historical, and computational methods to argue that region was not simply a framework for representing cultural difference but a structuring principle of the cultural field.</description>
     </item>
     
     <item>
@@ -93,7 +93,8 @@ Despite expert warnings that coronavirus repercussions will extend through summe
       <pubDate>Thu, 09 Apr 2020 10:20:47 -0500</pubDate>
       
       <guid>https://azleslie.com/projects/hugo-tutorial/</guid>
-      <description>I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning a bit more and potentially helping others avoid my mistakes, I&amp;rsquo;ve gone back through the process step by step here.</description>
+      <description>I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning more and helping others avoid my mistakes, I&amp;rsquo;ve gone back through the process step by step here.2
+   Get Git and GitHub Using Hugo Tips for Building &amp;amp; Troubleshooting Hosting on GitHub Custom Domain Name Setup Google Analytics and Search Console    There are many approaches to building websites; why this one?</description>
     </item>
     
     <item>

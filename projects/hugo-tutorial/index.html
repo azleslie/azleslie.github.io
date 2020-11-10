@@ -6,7 +6,8 @@
 		<meta name="generator" content="Hugo 0.68.3" />
 		<title>Hugo and GitHub Pages Tutorial - Alex Zweber Leslie</title>
 
-		<meta name="description" content="I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning a bit more and potentially helping others avoid my mistakes, I&rsquo;ve gone back through the process step by step here.">
+		<meta name="description" content="I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning more and helping others avoid my mistakes, I&rsquo;ve gone back through the process step by step here.2
+   Get Git and GitHub Using Hugo Tips for Building &amp; Troubleshooting Hosting on GitHub Custom Domain Name Setup Google Analytics and Search Console    There are many approaches to building websites; why this one?">
 
 
 		
@@ -77,7 +78,7 @@ if (!doNotTrack) {
 </hgroup>
 <hr class="sep" />
 </header>
-	<p>I used the static site generator <a href="https://gohugo.io/">Hugo</a> and <a href="https://pages.github.com/">GitHub Pages</a> hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> In the interests of learning a bit more and potentially helping others avoid my mistakes, I&rsquo;ve gone back through the process step by step here.</p>
+	<p>I used the static site generator <a href="https://gohugo.io/">Hugo</a> and <a href="https://pages.github.com/">GitHub Pages</a> hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup> In the interests of learning more and helping others avoid my mistakes, I&rsquo;ve gone back through the process step by step here.<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
 <ul>
 <li>
 <ul>
@@ -109,7 +110,7 @@ brew --version
 <pre><code>choco install git
 </code></pre><p>Verify with:</p>
 <pre><code>git version
-</code></pre><p>Configure user information to match your GitHub name/email:<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+</code></pre><p>Configure user information to match your GitHub name/email:<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
 <pre><code>git config --global user.name &quot;exampleusername&quot;
 
 git config --global user.email &quot;username@example.com&quot;
@@ -259,7 +260,7 @@ git pull origin master
 <p>Many Hugo themes come with Google Analytics pre-enabled. This will be included in the <code>config</code> file. If so, simply add your tracking ID.</p>
 <p>If not, there are two steps. First add the tracking ID to the <code>config</code> file at the top of the page right after title and theme options. For themes using the .toml config format, this will look like so:</p>
 <pre><code>googleAnalytics = &quot;UA-12345-1&quot;
-</code></pre><p>For themes using the .yaml config format, it will instead look like so:<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></p>
+</code></pre><p>For themes using the .yaml config format, it will instead look like so:<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></p>
 <pre><code>googleAnalytics: UA-12345-1
 </code></pre><p>Then navigate to <code>/layouts/partials/</code> and open <code>header.html</code>. Add this code within a <code>&lt;head&gt;</code> tag to enable Google Analytics in Hugo:</p>
 <pre><code>{{ template &quot;_internal/google_analytics.html&quot; . }}
@@ -274,10 +275,13 @@ git pull origin master
 <p>I also had the help of a developer friend when I got turned around: thanks, Josh! <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2" role="doc-endnote">
-<p>Technically, only the <code>user.email</code> needs to match. It&rsquo;s handiest, though, to keep <code>user.name</code> the same as well. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>This tutorial was written in part with support from the Rutgers Libraries&rsquo; Graduate Specialist program and formed the basis of a workshop I taught in that capacity in Spring 2020. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3" role="doc-endnote">
-<p>Hugo does also allow .json <code>config</code> files, but these seem to be much less common. The appropriate syntax here would be <code>{&quot;googleAnalytics&quot;: &quot;UA-12345-1&quot;}</code>. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>Technically, only the <code>user.email</code> needs to match. It&rsquo;s handiest, though, to keep <code>user.name</code> the same as well. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4" role="doc-endnote">
+<p>Hugo does also allow .json <code>config</code> files, but these seem to be much less common. The appropriate syntax here would be <code>{&quot;googleAnalytics&quot;: &quot;UA-12345-1&quot;}</code>. <a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
