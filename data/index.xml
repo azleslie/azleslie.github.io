@@ -6,10 +6,19 @@
     <description>Recent content in Data on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020 Alex Leslie</copyright>
-    <lastBuildDate>Thu, 06 Aug 2020 12:20:15 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2020 12:20:15 -0400</lastBuildDate>
     
 	<atom:link href="https://azleslie.com/data/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Postbellum Newspaper Syndicates</title>
+      <link>https://azleslie.com/data/newspaper-syndicates/</link>
+      <pubDate>Fri, 20 Nov 2020 12:20:15 -0400</pubDate>
+      
+      <guid>https://azleslie.com/data/newspaper-syndicates/</guid>
+      <description>This dataset represents the newspapers served by four leading syndicates of the postbellum period. Syndicates fueled the rapid growth of the American press after the Civil War by providing cheap content &amp;ndash; not only news but literary entertainment, general information, and illustrations &amp;ndash; to fledgling editors and to newspapers in communities that otherwise would have been too small to sustain one. They exerted profound influence on the format itself and on what millions of Americans read, especially in rural areas.</description>
+    </item>
     
     <item>
       <title>North American Bookstores, 1915</title>

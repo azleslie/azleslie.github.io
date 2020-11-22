@@ -6,10 +6,28 @@
     <description>Recent content on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020 Alex Leslie</copyright>
-    <lastBuildDate>Tue, 05 May 2020 12:45:44 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2020 12:45:44 -0500</lastBuildDate>
     
 	<atom:link href="https://azleslie.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CV</title>
+      <link>https://azleslie.com/cv/</link>
+      <pubDate>Sat, 21 Nov 2020 12:45:44 -0500</pubDate>
+      
+      <guid>https://azleslie.com/cv/</guid>
+      <description>You can download a PDF copy of my CV here.</description>
+    </item>
+    
+    <item>
+      <title>Postbellum Newspaper Syndicates</title>
+      <link>https://azleslie.com/data/newspaper-syndicates/</link>
+      <pubDate>Fri, 20 Nov 2020 12:20:15 -0400</pubDate>
+      
+      <guid>https://azleslie.com/data/newspaper-syndicates/</guid>
+      <description>This dataset represents the newspapers served by four leading syndicates of the postbellum period. Syndicates fueled the rapid growth of the American press after the Civil War by providing cheap content &amp;ndash; not only news but literary entertainment, general information, and illustrations &amp;ndash; to fledgling editors and to newspapers in communities that otherwise would have been too small to sustain one. They exerted profound influence on the format itself and on what millions of Americans read, especially in rural areas.</description>
+    </item>
     
     <item>
       <title>Howells Novels Ranking</title>
@@ -56,15 +74,6 @@ Newspaper agencies were a major go-between for advertisers and periodicals in th
       
       <guid>https://azleslie.com/posts/literary-monthlies-illustrations/</guid>
       <description>Literary monthlies &amp;ndash; the Atlantic, Harper’s, the Century, Lippincott’s, and Scribner’s &amp;ndash; were some of the most widely read and highly respected magazines in nineteenth-century America. They don&amp;rsquo;t usually strike one as avant garde today, but I think that’s a misunderstanding for several reasons. For one, literary monthlies helped drive the development of new technologies and skills for reproducing illustrations. But they also expanded the possibilities of what illustrations could do.</description>
-    </item>
-    
-    <item>
-      <title>CV</title>
-      <link>https://azleslie.com/cv/</link>
-      <pubDate>Tue, 05 May 2020 12:45:44 -0500</pubDate>
-      
-      <guid>https://azleslie.com/cv/</guid>
-      <description>You can download a PDF copy of my CV here.</description>
     </item>
     
     <item>
@@ -123,8 +132,8 @@ As recent conflicts over Confederate monuments have shown, the American Civil Wa
       <pubDate>Tue, 04 Feb 2020 20:44:02 -0500</pubDate>
       
       <guid>https://azleslie.com/writing/</guid>
-      <description>Peer Reviewed &amp;ldquo;Regional Nationalism and the Ends of the Literary World,&amp;rdquo; J19: the Journal of Nineteenth-Century Americanists 7.2 (Fall 2019): 249-275. Download here.
-In this essay I examine the Literary World, the influential literary periodical edited by Evert Duyckinck, to rethink the relationship between region and nation in antebellum cultural geography. I argue that there were multiple literary nationalisms, each a regionally distinctive invocation of nationalist rhetoric on behalf of regional interests that belied rather than represented or advocated a national literature.</description>
+      <description>Peer Reviewed &amp;ldquo;Race, Region, and the Black Midwest in the Dunbar Decades,&amp;rdquo; forthcoming in American Literary History.
+In this essay I show how Paul Laurence Dunbar, today most associated with plantation poetry, successfully utilized Midwestern identity as an alternative site for Black expression and cultural affiliation. Writing in Midwestern dialects and tropes, Dunbar was able to become widely recognized as a Midwestern writer and in doing so compel white readers to place regional belonging over racial alterity as a framework for interpreting cultural difference even at the height of Jim Crow.</description>
     </item>
     
     <item>
