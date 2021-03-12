@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<meta name="viewport" content="width=device-width, initial-scale=0.8">
-		<meta name="generator" content="Hugo 0.68.3" />
+		<meta name="generator" content="Hugo 0.80.0" />
 		<title>Hugo and GitHub Pages Tutorial - Alex Zweber Leslie</title>
 
 		<meta name="description" content="I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning more and helping others avoid my mistakes, I&rsquo;ve gone back through the process step by step here.2
@@ -246,7 +246,7 @@ git push origin master
 
 git pull origin master
 </code></pre><p>Another DNS record needs to point from the custom apex domain to the GitHub Pages domain. In the DNS provider control panel, create another CNAME file. Terminology can vary from DNS provider: Dotster uses &ldquo;name&rdquo; for the custom domain itself and &ldquo;content&rdquo; for where it&rsquo;s pointing to. TTL can be an hour. <code>https://&lt;USERNAME&gt;.github.io</code> should now redirect to <code>https://&lt;USERNAME&gt;.com</code>.</p>
-<p>Optionally, set up a www subdomain in the DNS provider control panel in addition to the apex domain. Create four new DNS records, this time A or ALIAS records, each pointing from the www subdomain to one of GitHub Pages&rsquo; four IP addresses:</p>
+<p>Optionally, set up a www subdomain in the DNS provider control panel in addition to the apex domain. Create four new DNS records, this time A or ALIAS records, each pointing from the www subdomain to one of GitHub Pages' four IP addresses:</p>
 <pre><code>185.199.108.153
 185.199.109.153
 185.199.110.153
@@ -275,7 +275,7 @@ git pull origin master
 <p>I also had the help of a developer friend when I got turned around: thanks, Josh! <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2" role="doc-endnote">
-<p>This tutorial was written in part with support from the Rutgers Libraries&rsquo; Graduate Specialist program and formed the basis of a workshop I taught in that capacity in Spring 2020. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p>This tutorial was written in part with support from the Rutgers Libraries' Graduate Specialist program and formed the basis of a workshop I taught in that capacity in Spring 2020. <a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:3" role="doc-endnote">
 <p>Technically, only the <code>user.email</code> needs to match. It&rsquo;s handiest, though, to keep <code>user.name</code> the same as well. <a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>

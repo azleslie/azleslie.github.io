@@ -5,10 +5,6 @@
     <link>https://azleslie.com/tags/</link>
     <description>Recent content in Tags on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>&amp;copy; 2020 Alex Leslie</copyright>
-    
-	<atom:link href="https://azleslie.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>&amp;copy; 2020 Alex Leslie</copyright><atom:link href="https://azleslie.com/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

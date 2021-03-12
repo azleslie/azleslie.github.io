@@ -404,7 +404,7 @@ html {
 }
 body {
   font-size: 1.6em;
-  line-height: 1.7;
+  line-height: 1.6; /*was 1.7*/
   font-weight: 400;
   font-family: 'Nanum Myeongjo'; /*'Lato', sans-serif */
   color: #444;

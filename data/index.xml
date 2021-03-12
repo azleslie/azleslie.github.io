@@ -6,11 +6,7 @@
     <description>Recent content in Data on Alex Zweber Leslie</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2020 Alex Leslie</copyright>
-    <lastBuildDate>Fri, 20 Nov 2020 12:20:15 -0400</lastBuildDate>
-    
-	<atom:link href="https://azleslie.com/data/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 20 Nov 2020 12:20:15 -0400</lastBuildDate><atom:link href="https://azleslie.com/data/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Postbellum Newspaper Syndicates</title>
       <link>https://azleslie.com/data/newspaper-syndicates/</link>
@@ -26,8 +22,8 @@
       <pubDate>Thu, 06 Aug 2020 12:20:15 -0400</pubDate>
       
       <guid>https://azleslie.com/data/booksellers1915/</guid>
-      <description>This dataset is a near-comprehensive record of bookstores and dedicated booksellers in the U.S. and Canada in 1915, compiled by Publishers&amp;rsquo; Weekly.1 Though Americans had several non-storefront sources of books (including mail order and subscription), this dataset gives insight into the locations, volume, and types of stores from which Americans could purchase books in the early 20th century.
-The Publishers&amp;rsquo; Weekly directory primarily consists of American booksellers, but it includes a significant number of Canadian booksellers as well as a few in Cuba, Mexico, and the Philippines.</description>
+      <description>This dataset is a near-comprehensive record of bookstores and dedicated booksellers in the U.S. and Canada in 1915, compiled by Publishers&#39; Weekly.1 Though Americans had several non-storefront sources of books (including mail order and subscription), this dataset gives insight into the locations, volume, and types of stores from which Americans could purchase books in the early 20th century.
+The Publishers&#39; Weekly directory primarily consists of American booksellers, but it includes a significant number of Canadian booksellers as well as a few in Cuba, Mexico, and the Philippines.</description>
     </item>
     
     <item>
@@ -36,7 +32,7 @@ The Publishers&amp;rsquo; Weekly directory primarily consists of American bookse
       <pubDate>Thu, 09 Jul 2020 20:47:32 -0500</pubDate>
       
       <guid>https://azleslie.com/data/cook76-directory-annotations/</guid>
-      <description>This is a small and unusual dataset, but it&amp;rsquo;s one that I like and learned a fair bit from: an advertiser&amp;rsquo;s annotations of a 1876 edition of C. A. Cook &amp;amp; Co.&amp;lsquo;s United States Newspaper Directory now held at the American Antiquarian Society.1
+      <description>This is a small and unusual dataset, but it&amp;rsquo;s one that I like and learned a fair bit from: an advertiser&amp;rsquo;s annotations of a 1876 edition of C. A. Cook &amp;amp; Co.&amp;rsquo;s United States Newspaper Directory now held at the American Antiquarian Society.1
 Newspaper agencies were a major go-between for advertisers and periodicals in the postbellum period, promising advertisers less hassle and publishers more reliable ad revenue streams. By the mid-1870s they published annual directories of the country&amp;rsquo;s newspapers, usually with a short record of political affiliation, genre, publisher, estimated circulation, and even short descriptions of the local population, all to help businesses choose where to place their ads.</description>
     </item>
     
