@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=0.8">
+		<meta name="generator" content="Hugo 0.80.0" />
+		<title>Lowell&#39;s A Fable for Critics Digital Edition - Alex Zweber Leslie</title>
+
+		<meta name="description" content="Over the past year I&rsquo;ve been working on a digital edition of James Russell Lowell&rsquo;s poem A Fable for Critics, the sensational 1848 satire of American literature from Poe to Emerson to Cooper. In both its colorful content and its lively reception, A Fable for Critics is a snapshot into the antebellum literary scene, with all its boisterous wit, youthful pretensions, cliquish bits, bitter feuds, and nagging uncertainty over whether there really was &ndash; or could be &ndash; a uniquely American literature.">
+
+
+		
+
+		
+
+
+
+
+<link rel="stylesheet" href="/css/ui.css">
+
+
+		
+
+		<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Lato|Raleway">
+
+		
+		
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-158052368-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+		
+		
+		
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="">
+<meta name="twitter:title" content="Lowell&#39;s A Fable for Critics Digital Edition">
+<meta name="twitter:image" content="https://azleslie.com/fable-title-basic.png">
+
+
+
+
+
+		
+<meta property="og:title" content="Lowell&#39;s A Fable for Critics Digital Edition">
+<meta property="og:type" content="article">
+<meta property="og:description" content="A digital edition of James Russell Lowell&#39;s 1848 roast of Hawthorne, Poe, and other early American authors with notes for allusions and review excerpts.">
+<meta property="og:image" content="https://azleslie.com/fable-title-basic.png">
+
+
+		
+
+	</head>
+
+<body>
+<header class="container no-print">
+	<div class="u-header">
+		<nav class="bar">
+	<ul><li>
+			<a href="/">
+				<img class="icon-text" src="/img/prev.svg"/>
+			</a>
+		</li><li><a href="/about">About</a></li><li><a href="/cv">CV</a></li><li><a href="/data/">Data</a></li><li><a href="/posts/">Posts</a></li><li><a href="/projects/">Projects</a></li><li><a href="/teaching">Teaching</a></li><li><a href="/writing/">Writing</a></li></ul>
+</nav>
+
+	</div>
+</header>
+<main class="container">
+
+<article>
+	<header><hgroup id="brand">
+	<h1>Lowell&#39;s A Fable for Critics Digital Edition</h1>
+	<h5>
+		
+		<time datetime="2021-03-15 20:23:29 -0500 -0500">Mar 15, 2021</time>
+		<span class="no-print">
+			<span>
+	</h5>
+	
+</hgroup>
+<hr class="sep" />
+</header>
+	<p>Over the past year I&rsquo;ve been working on a digital edition of James Russell Lowell&rsquo;s poem <em>A Fable for Critics</em>, the sensational 1848 satire of American literature from Poe to Emerson to Cooper. In both its colorful content and its lively reception, <em>A Fable for Critics</em> is a snapshot into the antebellum literary scene, with all its boisterous wit, youthful pretensions, cliquish bits, bitter feuds, and nagging uncertainty over whether there really was &ndash; or could be &ndash; a uniquely <em>American</em> literature.</p>
+<p>I&rsquo;m happy to say that you can now visit the &ldquo;beta&rdquo; release here: <a href="https://azleslie.com/fableforcritics">https://azleslie.com/fableforcritics</a>. In addition to writing reference notes, collecting reviews, and editing the text, I also designed the site and wrote most of the HTML and CSS. The poem itself is a blast and strikingly contemporary in manner in addition to covering many of the most famous American authors; you can read more about it in the short introduction I wrote on that page. I wanted to make <em>A Fable for Critics</em> and the world from which it sprang more accessible to scholars, teachers, students, and general readers alike.</p>
+<p>My goal was to make a digital edition that elevated reception to the level of the poem in presentation. After all, it is a fable for critics. Enmeshed in the circulation of topical news, gossip of the hour, inside jokes, and niche references, the poem intimately anticipates, mirrors, and relates to its own reception. Reading the reviews is almost more fun than reading the poem. To appreciate the reviews' cleverness and pettiness, though, one needs familiarity with the poem &ndash; much as one needs some familiarity with the subjects of the poem&rsquo;s allusions to appreciate its own cleverness and pettiness. I wanted to bridge both of these gaps: a task all the more involved yet all the more rewarding when it comes to comedy, which is at once frustratingly ephemeral due to its topicality yet surprisingly timeless in its function.</p>
+<p><img src="/fable_edition_sc.png" alt=""></p>
+<p>My idea was to build on the technique of margin footnotes by using a three-column structure to reproduce two different sets of notes in the left- and right-hand margins respectively: the left for traditional notes glossing references in the poem and the right for &ldquo;reception notes&rdquo; that quote reviews alongside the passages excerpted in those reviews, which highlight on cursor hover. Being able to see all three at once makes for a smooth readerly transition from one to the next. This structure also more closely simulates the experience of an informed contemporaneous reader, who wouldn&rsquo;t have needed to look something up every five lines and who whose reading would have been influenced by pieces of gossip and commentary picked up in popular discourse. Finally, this structure schematizes the relation between context or intent, text, and reception or influence.</p>
+<p>This proved a bit trickier to execute than it was to imagine. HTML typically wants either to fully segment content (i.e., in different parts of the browser window) or make it float in order (i.e., sequentially from top to bottom). Notes needed to be tethered to (or at least close to) the line they expound. A table, however, elongates all cells in a row if the text of one cell runs long, which would put obnoxious gaps between lines of the poem. And because both sets of notes are tethered to the same kind of content on the page (the poem), the start of any new note gets bumped until the conclusion of any ongoing note, which causes some offset. For my purposes, with a bit of finicking, this was still much better than disrupting the reading experience by making users click links for references or reviews (which, as all teachers know, are less likely to be read the farther they are from the text). I&rsquo;ve considered a compromise solution &ndash; click-to-expand buttons in the margin for each note &ndash; but I&rsquo;ve come to like the somewhat bestrewn appearance, which to me embodies some of the messiness of <em>A Fable for Critics</em> and the antebellum literary scene.</p>
+<p>So while a savvier web developer (the bar is not especially high) could no doubt improve on what I&rsquo;ve done, I&rsquo;m pleased with the result. The code and content for the site is accessible on <a href="https://github.com/azleslie/fableforcritics">my github</a>. Over the coming month(s) as time allows, I plan to add linked uploads of the full reviews quoted. I&rsquo;d also like to do something a bit better with the Authors section, but I haven&rsquo;t settled on what yet. This is still a &ldquo;beta&rdquo; release insofar as I am still correcting errors here and there, so I would be very grateful for any corrections.</p>
+
+</article>
+
+
+
+
+
+
+
+
+			<hr class="sep" />
+		</main>
+		<footer class="container no-print">
+			<div class="u-footer">
+				
+<a href="mailto:alex.leslie@rutgers.edu"><img class="icon-social" src="/img/email.svg" alt="Email Me!"/></a>
+
+
+<a href="https://github.com/azleslie/"><img class="icon-social" src="/img/github.svg" alt="Github"/></a>
+
+
+<a href="https://twitter.com/azleslie"><img class="icon-social" src="/img/twitter.svg" alt="Twitter"/></a>
+
+<a href="https://azleslie.com/index.xml" target="_blank"><img class="icon-social" src="/img/feed.svg" alt="Feed"></a>
+
+
+				<p style="font-size: .8em">
+					
+					Made with <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/yursan9/manis-hugo-theme">Manis</a><br>
+					
+					
+					&copy; 2021 Alex Leslie
+					
+					
+					| <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>
+					
+				</p>
+				
+				<a href="#top">
+					<img class="icon-text" src="/img/toup.svg" alt="To Up"/>
+					<span>Up</span>
+				</a>
+				
+			</div>
+		</footer>
+		
+	</body>
+</html>
+
