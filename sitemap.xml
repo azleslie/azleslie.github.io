@@ -1,109 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-  <url>
-    <loc>https://azleslie.com/</loc>
-    <lastmod>2021-03-15T20:23:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://azleslie.com/projects/fable-edition/</loc>
-    <lastmod>2021-03-15T20:23:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://azleslie.com/projects/</loc>
-    <lastmod>2021-03-15T20:23:29-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://azleslie.com/about/</loc>
-    <lastmod>2021-03-11T12:45:40-05:00</lastmod>
-  </url>
-  
   <url>
     <loc>https://azleslie.com/cv/</loc>
-    <lastmod>2020-11-21T12:45:44-05:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-04-24T12:45:44-05:00</lastmod>
+  </url><url>
+    <loc>https://azleslie.com/</loc>
+    <lastmod>2021-03-15T20:23:29-05:00</lastmod>
+  </url><url>
+    <loc>https://azleslie.com/projects/fable-edition/</loc>
+    <lastmod>2021-03-15T20:23:29-05:00</lastmod>
+  </url><url>
+    <loc>https://azleslie.com/projects/</loc>
+    <lastmod>2021-03-15T20:23:29-05:00</lastmod>
+  </url><url>
+    <loc>https://azleslie.com/about/</loc>
+    <lastmod>2021-03-11T12:45:40-05:00</lastmod>
+  </url><url>
     <loc>https://azleslie.com/data/</loc>
     <lastmod>2020-11-20T12:20:15-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/data/newspaper-syndicates/</loc>
     <lastmod>2020-11-20T12:20:15-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/posts/howells-ranking/</loc>
     <lastmod>2020-09-18T20:36:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/posts/</loc>
     <lastmod>2020-09-18T20:36:05-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/projects/dh-workshops/</loc>
     <lastmod>2020-08-23T12:54:02-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/data/booksellers1915/</loc>
     <lastmod>2020-08-06T12:20:15-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/data/cook76-directory-annotations/</loc>
     <lastmod>2020-07-09T20:47:32-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/posts/literary-monthlies-illustrations/</loc>
     <lastmod>2020-06-12T09:21:02-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/posts/spanish-flu/</loc>
     <lastmod>2020-05-02T19:19:30-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/projects/hugo-tutorial/</loc>
     <lastmod>2020-04-09T10:20:47-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/posts/news-rhythms/</loc>
     <lastmod>2020-03-20T13:34:52-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/teaching/</loc>
     <lastmod>2020-02-04T20:44:09-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/writing/</loc>
     <lastmod>2020-02-04T20:44:02-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/data/antebellum-periodicals/</loc>
     <lastmod>2020-02-04T20:09:33-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/posts/new-site/</loc>
     <lastmod>2020-02-04T19:45:27-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://azleslie.com/tags/</loc>
   </url>
-  
 </urlset>
