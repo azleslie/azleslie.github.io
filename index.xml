@@ -117,8 +117,7 @@ Despite expert warnings that coronavirus repercussions will extend through summe
       <pubDate>Thu, 09 Apr 2020 10:20:47 -0500</pubDate>
       
       <guid>https://azleslie.com/projects/hugo-tutorial/</guid>
-      <description>I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning more and helping others avoid my mistakes, I&amp;rsquo;ve gone back through the process step by step here.2
-   Get Git and GitHub Using Hugo Tips for Building &amp;amp; Troubleshooting Hosting on GitHub Custom Domain Name Setup Google Analytics and Search Console    There are many approaches to building websites; why this one?</description>
+      <description>I used the static site generator Hugo and GitHub Pages hosting to build this website. Aside from one or two mistakes on my end, it was relatively easy to learn, customize, and deploy. That said, I did have to do some guessing and hopping between not-always-forthright tutorials.1 In the interests of learning more and helping others avoid my mistakes, I&amp;rsquo;ll walk through the whole process here from setup to deployment.2</description>
     </item>
     
     <item>
