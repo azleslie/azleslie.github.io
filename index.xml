@@ -8,6 +8,16 @@
     <copyright>&amp;copy; 2021 Alex Leslie</copyright>
     <lastBuildDate>Fri, 07 May 2021 09:11:29 -0400</lastBuildDate><atom:link href="https://azleslie.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>About</title>
+      <link>https://azleslie.com/about/</link>
+      <pubDate>Tue, 18 May 2021 12:45:40 -0500</pubDate>
+      
+      <guid>https://azleslie.com/about/</guid>
+      <description>I am a Bevier Fellow in the English Department at Rutgers University, where I received my PhD in 2021. I specialize in American cultural history from the Early Republic to Modernism, with particular focus on circulation and reception, cultural geography, genre, and humanities data science.
+My book project, &amp;ldquo;Reading Regions: Cultural Geography and American Literature, 1852-1925,&amp;rdquo; combines literary, historical, and quantitative analysis to argue that the emergence of a nationally-incorporated cultural field in America galvanized regional differences rather than subsuming them.</description>
+    </item>
+    
+    <item>
       <title>Patterns and Predictability in Borrower Behavior</title>
       <link>https://azleslie.com/posts/borrower-predictability/</link>
       <pubDate>Fri, 07 May 2021 09:11:29 -0400</pubDate>
@@ -33,16 +43,6 @@ I had the pleasure of presenting on this subject at the excellent Library Circul
       
       <guid>https://azleslie.com/projects/fable-edition/</guid>
       <description>Over the past year I&amp;rsquo;ve been working on a digital edition of James Russell Lowell&amp;rsquo;s poem A Fable for Critics, the sensational 1848 satire of American literature from Poe to Emerson to Cooper. In both its colorful content and its lively reception, A Fable for Critics is a snapshot of the antebellum literary scene, with all its boisterous wit, youthful pretensions, cliquish bits, bitter feuds, and nagging uncertainty over whether there really was &amp;ndash; or could be &amp;ndash; a uniquely American literature.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://azleslie.com/about/</link>
-      <pubDate>Thu, 11 Mar 2021 12:45:40 -0500</pubDate>
-      
-      <guid>https://azleslie.com/about/</guid>
-      <description>I am a Bevier Fellow in the English Department at Rutgers University, where I defended my PhD in 2021. I specialize in American cultural history from the Early Republic to Modernism, with particular focus on circulation and reception, cultural geography, genre, and digital humanities.
-My book project, &amp;ldquo;Reading Regions: Cultural Geography and American Literature, 1852-1925,&amp;rdquo; combines literary, historical, and quantitative analysis to argue that the emergence of a nationally-incorporated cultural field in America galvanized regional differences rather than subsuming them.</description>
     </item>
     
     <item>
