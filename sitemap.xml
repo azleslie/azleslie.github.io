@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://azleslie.com/</loc>
+    <lastmod>2021-11-15T12:20:15-04:00</lastmod>
+  </url><url>
+    <loc>https://azleslie.com/data/</loc>
+    <lastmod>2021-11-15T12:20:15-04:00</lastmod>
+  </url><url>
+    <loc>https://azleslie.com/data/booksellers1915/</loc>
+    <lastmod>2021-11-15T12:20:15-04:00</lastmod>
+  </url><url>
     <loc>https://azleslie.com/cv/</loc>
     <lastmod>2021-09-01T12:45:44-05:00</lastmod>
-  </url><url>
-    <loc>https://azleslie.com/</loc>
-    <lastmod>2021-08-09T12:33:39-04:00</lastmod>
   </url><url>
     <loc>https://azleslie.com/posts/</loc>
     <lastmod>2021-08-09T12:33:39-04:00</lastmod>
@@ -26,9 +32,6 @@
     <loc>https://azleslie.com/projects/</loc>
     <lastmod>2021-03-15T20:23:29-05:00</lastmod>
   </url><url>
-    <loc>https://azleslie.com/data/</loc>
-    <lastmod>2020-11-20T12:20:15-04:00</lastmod>
-  </url><url>
     <loc>https://azleslie.com/data/newspaper-syndicates/</loc>
     <lastmod>2020-11-20T12:20:15-04:00</lastmod>
   </url><url>
@@ -37,9 +40,6 @@
   </url><url>
     <loc>https://azleslie.com/projects/dh-workshops/</loc>
     <lastmod>2020-08-23T12:54:02-05:00</lastmod>
-  </url><url>
-    <loc>https://azleslie.com/data/booksellers1915/</loc>
-    <lastmod>2020-08-06T12:20:15-04:00</lastmod>
   </url><url>
     <loc>https://azleslie.com/data/cook76-directory-annotations/</loc>
     <lastmod>2020-07-09T20:47:32-05:00</lastmod>

@@ -1,4 +1,4 @@
-Country,State,Town,Seller,Population,Latitude,Longitude,Class,Subject
+Country,State,Town,Retailer,Population,Latitude,Longitude,Class,Subject
 UNITED STATES,ALABAMA,Anniston.,"Montgomery, H. F.",12794,33.6598257,-85.8316318,,
 UNITED STATES,ALABAMA,Anniston.,"Robinson's Bookstore (Samuel Robinson, Prop.)",12794,33.6598257,-85.8316318,,
 UNITED STATES,ALABAMA,Birmingham.,"Loveman, Joseph & Loeb. (D.S.)",132685,33.5185892,-86.8103567,Department Store,
