@@ -2,11 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://azleslie.com/</loc>
+    <lastmod>2023-01-03T09:32:13-06:00</lastmod>
+  </url><url>
+    <loc>https://azleslie.com/posts/</loc>
+    <lastmod>2023-01-03T09:32:13-06:00</lastmod>
+  </url><url>
+    <loc>https://azleslie.com/posts/rural-newsprint-vocabulary/</loc>
+    <lastmod>2023-01-03T09:32:13-06:00</lastmod>
+  </url><url>
     <loc>https://azleslie.com/about/</loc>
     <lastmod>2022-12-09T12:45:40-05:00</lastmod>
-  </url><url>
-    <loc>https://azleslie.com/</loc>
-    <lastmod>2022-07-09T20:23:29-05:00</lastmod>
   </url><url>
     <loc>https://azleslie.com/projects/black-midwest-dunbar/</loc>
     <lastmod>2022-07-09T20:23:29-05:00</lastmod>
@@ -15,9 +21,6 @@
     <lastmod>2022-07-09T20:23:29-05:00</lastmod>
   </url><url>
     <loc>https://azleslie.com/posts/bloomsday/</loc>
-    <lastmod>2022-04-26T07:32:24-05:00</lastmod>
-  </url><url>
-    <loc>https://azleslie.com/posts/</loc>
     <lastmod>2022-04-26T07:32:24-05:00</lastmod>
   </url><url>
     <loc>https://azleslie.com/posts/marginal-costs-book-production/</loc>
